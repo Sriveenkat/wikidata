@@ -26,6 +26,7 @@
 # Romanian (ro): User:XXN
 # Spanish (es): User:Emijrp
 # Albanian (sq): User:Liridon
+# Tamil (ta): User:Sriveenkat
 # Thanks everybody for your help!
 
 import os
@@ -77,6 +78,8 @@ def main():
             'he': { 'male': 'אפגני', 'female': 'אפגנית' },
             'ro': { 'male': 'afgan', 'female': 'afgană' },
             'sq': { 'male': 'afgan', 'female': 'afgane' },
+            'ta': { 'male': 'ஆப்கானிய', 'female': 'ஆப்கானிய' },
+
         },
         'Albanian': {
             'ar': { 'male': 'ألباني', 'female': 'ألبانية' },
@@ -90,6 +93,8 @@ def main():
             'he': { 'male': 'אלבני', 'female': 'אלבנית' },
             'ro': { 'male': 'albanez', 'female': 'albaneză' },
             'sq': { 'male': 'shqiptar', 'female': 'shqiptare' },
+            'ta': { 'male': 'அல்பேனிய', 'female': 'அல்பேனிய' },
+            
         },
         'Algerian': {
             'ar': { 'male': 'جزائري', 'female': 'جزائرية' },
@@ -103,6 +108,7 @@ def main():
             'he': { 'male': 'אלג\'יראי', 'female': 'אלג\'יראית' },
             'ro': { 'male': 'algerian', 'female': 'algeriană' },
             'sq': { 'male': 'algjerian', 'female': 'algjeriane' },
+            'ta': { 'male': 'அல்சீரிய', 'female': 'அல்சீரிய' },
         },
         'American': {
             'ar': { 'male': 'أمريكي', 'female': 'أمريكية' },
@@ -116,6 +122,7 @@ def main():
             'he': { 'male': 'אמריקאי', 'female': 'אמריקאית' },
             'ro': { 'male': 'american', 'female': 'americană' },
             'sq': { 'male': 'amerikan', 'female': 'amerikane' },
+            'ta': { 'male': 'அமெரிக்க', 'female': 'அமெரிக்க' },
         },
         'Andorran': {
             'ar': { 'male': 'أندوري', 'female': 'أندورية' },
@@ -142,6 +149,7 @@ def main():
             'he': { 'male': 'אנגולי', 'female': 'אנגולית' },
             'ro': { 'male': 'angolez', 'female': 'angoleză' },
             'sq': { 'male': 'angolez', 'female': 'angoleze' },
+            'ta': { 'male': 'அங்கோலா நாட்டு', 'female': 'அங்கோலா நாட்டு' },
         },
         'Argentine': {
             'ar': { 'male': 'أرجنتيني', 'female': 'أرجنتينية' },
@@ -155,6 +163,7 @@ def main():
             'he': { 'male': 'ארגנטינאי', 'female': 'ארגנטינאית' },
             'ro': { 'male': 'argentinian', 'female': 'argentiniană' },
             'sq': { 'male': 'argjentinas', 'female': 'argjentinase' },
+            'ta': { 'male': 'அர்கெந்தீனிய', 'female': 'அர்கெந்தீனிய' },
         },
         'Argentinean': {
             'ar': { 'male': 'أرجنتيني', 'female': 'أرجنتينية' },
@@ -168,6 +177,7 @@ def main():
             'he': { 'male': 'ארגנטינאי', 'female': 'ארגנטינאית' },
             'ro': { 'male': 'argentinian', 'female': 'argentiniană' },
             'sq': { 'male': 'argjentinas', 'female': 'argjentinase' },
+            'ta': { 'male': 'அர்கெந்தீனிய', 'female': 'அர்கெந்தீனிய' },
         },
         'Armenian': {
             'ar': { 'male': 'أرمني', 'female': 'أرمنية' },
@@ -181,6 +191,7 @@ def main():
             'he': { 'male': 'ארמני', 'female': 'ארמנית' },
             'ro': { 'male': 'armean', 'female': 'armeană' },
             'sq': { 'male': 'armen', 'female': 'armene' },
+            'ta': { 'male': 'ஆர்மீனிய', 'female': 'ஆர்மீனிய' },
         },
         'Argentinian': {
             'ar': { 'male': 'أرجنتيني', 'female': 'أرجنتينية' },
@@ -194,6 +205,7 @@ def main():
             'he': { 'male': 'ארגנטינאי', 'female': 'ארגנטינאית' },
             'ro': { 'male': 'argentinian', 'female': 'argentiniană' },
             'sq': { 'male': 'argjentinas', 'female': 'argjentinase' },
+            'ta': { 'male': 'அர்கெந்தீனிய', 'female': 'அர்கெந்தீனிய' },
         },
         'Australian': {
             'ar': { 'male': 'أسترالي', 'female': 'أسترالية' },
@@ -207,6 +219,7 @@ def main():
             'he': { 'male': 'אוסטרלי', 'female': 'אוסטרלית' },
             'ro': { 'male': 'australian', 'female': 'australiană' },
             'sq': { 'male': 'australian', 'female': 'australiane' },
+            'ta': { 'male': 'ஆத்திரேலிய', 'female': 'ஆத்திரேலிய' },
         },
         'Austrian': {
             'ar': { 'male': 'نمساوي', 'female': 'نمساوية' },
@@ -220,6 +233,7 @@ def main():
             'he': { 'male': 'אוסטרי', 'female': 'אוסטרית' },
             'ro': { 'male': 'austriac', 'female': 'austriacă' },
             'sq': { 'male': 'austriak', 'female': 'austriake' },
+            'ta': { 'male': 'ஆத்திரிய', 'female': 'ஆத்திரிய' },
         },
         'Azerbaijani': {
             'ar': { 'male': 'أذربيجاني', 'female': 'أذربيجانية' },
@@ -233,6 +247,7 @@ def main():
             'he': { 'male': 'אזרי', 'female': 'אזרית' },
             'ro': { 'male': 'azer', 'female': 'azeră' },
             'sq': { 'male': 'azer', 'female': 'azere' },
+            'ta': { 'male': 'அசர்பைசானிய', 'female': 'அசர்பைசானிய' },
         },
         'Bahamian': {
             'ar': { 'male': 'باهامي', 'female': 'باهامية' },
@@ -246,6 +261,7 @@ def main():
             'he': { 'male': 'בהאמי', 'female': 'בהאמית' },
             'ro': { 'male': 'din Bahamas', 'female': 'din Bahamas' },
             'sq': { 'male': 'bahamas', 'female': 'bahamase' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Bahraini': {
             'ar': { 'male': 'بحريني', 'female': 'بحرينية' },
@@ -259,6 +275,7 @@ def main():
             'he': { 'male': 'בחרייני', 'female': 'בחריינית' },
             'ro': { 'male': 'din Bahrain', 'female': 'din Bahrain' },
             'sq': { 'male': 'bahreinas', 'female': 'bahreinase' },
+            'ta': { 'male': 'பகுரைனிய', 'female': 'பகுரைனிய' },
         },
         'Bangladeshi': {
             'ar': { 'male': 'بنغلاديشي', 'female': 'بنغلاديشية' },
@@ -272,6 +289,7 @@ def main():
             'he': { 'male': 'בנגלי', 'female': 'בנגלית' },
             'ro': { 'male': 'din Bangladesh', 'female': 'din Bangladesh' },
             'sq': { 'male': 'bangladeshas', 'female': 'bangladeshase' },
+            'ta': { 'male': 'வங்காளதேச', 'female': 'வங்காளதேச' },
         },
         'Barbadian': {
             'ar': { 'male': 'بربادوسي', 'female': 'بربادوسية' },
@@ -285,6 +303,7 @@ def main():
             'he': { 'male': 'ברבדי', 'female': 'ברבדית' },
             'ro': { 'male': 'din Barbados', 'female': 'din Barbados' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Belarusian': {
             'ar': { 'male': 'بيلاروسي', 'female': 'بيلاروسية' },
@@ -298,6 +317,8 @@ def main():
             'he': { 'male': 'בלארוסי', 'female': 'בלארוסית' },
             'ro': { 'male': 'bielorus', 'female': 'bielorusă' },
             'sq': { 'male': 'bjellorus', 'female': 'bjelloruse' },
+            'ta': { 'male': 'பெலருசிய', 'female': 'பெலருசிய' },
+            
         },
         'Belgian': {
             'ar': { 'male': 'بلجيكي', 'female': 'بلجيكية' },
@@ -311,6 +332,7 @@ def main():
             'he': { 'male': 'בלגי', 'female': 'בלגית' },
             'ro': { 'male': 'belgian', 'female': 'belgiană' },
             'sq': { 'male': 'belg', 'female': 'belge' },
+            'ta': { 'male': 'பெல்சிய', 'female': 'பெல்சிய' },
         },
         'Belizean': {
             'ar': { 'male': 'بليزي', 'female': 'بليزية' },
@@ -324,6 +346,7 @@ def main():
             'he': { 'male': 'בליזי', 'female': 'בליזית' },
             'ro': { 'male': 'din Belize', 'female': 'din Belize' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Beninese': {
             'ar': { 'male': 'بنيني', 'female': 'بنينية' },
@@ -337,6 +360,7 @@ def main():
             'he': { 'male': 'מבנין', 'female': 'מבנין' },
             'ro': { 'male': 'beninez', 'female': 'benineză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Beninois': {
             'ar': { 'male': 'بنيني', 'female': 'بنينية' },
@@ -350,6 +374,7 @@ def main():
             'he': { 'male': 'מבנין', 'female': 'מבנין' },
             'ro': { 'male': 'beninez', 'female': 'benineză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Bermudan': {
             'ar': { 'male': 'برمودي', 'female': 'برمودية' },
@@ -363,6 +388,7 @@ def main():
             'he': { 'male': 'ברמודי', 'female': 'ברמודית' },
             #'ro': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Bermudian': {
             'ar': { 'male': 'برمودي', 'female': 'برمودية' },
@@ -376,6 +402,7 @@ def main():
             'he': { 'male': 'ברמודי', 'female': 'ברמודית' },
             #'ro': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Bhutanese': {
             'ar': { 'male': 'بوتاني', 'female': 'بوتانية' },
@@ -389,6 +416,7 @@ def main():
             'he': { 'male': 'בהוטני', 'female': 'בהוטנית' },
             'ro': { 'male': 'bhutanez', 'female': 'bhutaneză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'பூட்டானிய', 'female': 'பூட்டானிய' },
         },
         'Bissau-Guinean': {
             'ar': { 'male': 'من غينيا بيساو', 'female': 'من غينيا بيساو' },
@@ -402,6 +430,7 @@ def main():
             'he': { 'male': 'מגינאה-ביסאו', 'female': 'מגינאה-ביסאו' },
             'ro': { 'male': 'guineobissauan', 'female': 'guineobissauană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Bolivian': {
             'ar': { 'male': 'بوليفي', 'female': 'بوليفية' },
@@ -415,6 +444,7 @@ def main():
             'he': { 'male': 'בוליבאני', 'female': 'בוליבאנית' },
             'ro': { 'male': 'bolivian', 'female': 'boliviană' },
             'sq': { 'male': 'bolivian', 'female': 'boliviane' },
+            'ta': { 'male': 'பொலிவிய', 'female': 'பொலிவிய' },
         },
         'Bosnian': {
             'ar': { 'male': 'بوسني', 'female': 'بوسنية' },
@@ -428,6 +458,7 @@ def main():
             'he': { 'male': 'בוסני', 'female': 'בוסנית' },
             'ro': { 'male': 'bosniac', 'female': 'bosniacă' },
             'sq': { 'male': 'boshnjak', 'female': 'boshnjake' },
+            'ta': { 'male': 'பொசுனிய', 'female': 'பொசுனிய' },
         },
         'Botswanan': {
             'ar': { 'male': 'بوتسواني', 'female': 'بوتسوانية' },
@@ -441,6 +472,7 @@ def main():
             'he': { 'male': 'בוטסואני', 'female': 'בוטסואנית' },
             'ro': { 'male': 'botswanez', 'female': 'botswaneză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Brazilian': {
             'ar': { 'male': 'برازيلي', 'female': 'برازيلية' },
@@ -454,6 +486,7 @@ def main():
             'he': { 'male': 'ברזילאי', 'female': 'ברזילאית' },
             'ro': { 'male': 'brazilian', 'female': 'braziliană' },
             'sq': { 'male': 'brazilian', 'female': 'braziliane' },
+            'ta': { 'male': 'பிரேசிலிய', 'female': 'பிரேசிலிய' },
         },
         'British': {
             'ar': { 'male': 'بريطاني', 'female': 'بريطانية' },
@@ -467,6 +500,7 @@ def main():
             'he': { 'male': 'בריטי', 'female': 'בריטית' },
             'ro': { 'male': 'britanic', 'female': 'britanică' },
             'sq': { 'male': 'britanik', 'female': 'britanike' },
+            'ta': { 'male': 'பிரித்தானிய', 'female': 'பிரித்தானிய' },
         },
         'Bruneian': {
             'ar': { 'male': 'بروني', 'female': 'برونية' },
@@ -480,6 +514,7 @@ def main():
             'he': { 'male': 'מברוניי', 'female': 'מברוניי' },
             'ro': { 'male': 'din Brunei', 'female': 'din Brunei' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Bulgarian': {
             'ar': { 'male': 'بلغاري', 'female': 'بلغارية' },
@@ -493,6 +528,7 @@ def main():
             'he': { 'male': 'בולגרי', 'female': 'בולגרייה' },
             'ro': { 'male': 'bulgar', 'female': 'bulgară' },
             'sq': { 'male': 'bullgar', 'female': 'bullgare' },
+            'ta': { 'male': 'பல்கேரிய', 'female': 'பல்கேரிய' },
         },
         'Burkinabe': {
             'ar': { 'male': 'بوركينابي', 'female': 'بوركينابية' },
@@ -506,6 +542,7 @@ def main():
             'he': { 'male': 'בורקינאי', 'female': 'בורקינאית' },
             'ro': { 'male': 'burkinez', 'female': 'burkineză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Burkinabé': {
             'ar': { 'male': 'بوركينابيّ', 'female': 'بوركينابيّة' },
@@ -519,6 +556,7 @@ def main():
             'he': { 'male': 'בורקינאי', 'female': 'בורקינאית' },
             'ro': { 'male': 'burkinez', 'female': 'burkineză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Burmese': {
             'ar': { 'male': 'بورمي', 'female': 'بورمية' },
@@ -532,6 +570,7 @@ def main():
             'he': { 'male': 'בורמזי', 'female': 'בורמזית' },
             'ro': { 'male': 'birman', 'female': 'birmană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'பர்மிய', 'female': 'பர்மிய' },
         },
         'Burundian': {
             'ar': { 'male': 'بوروندي', 'female': 'بوروندية' },
@@ -545,6 +584,7 @@ def main():
             'he': { 'male': 'בורונדי', 'female': 'בורונדית' },
             'ro': { 'male': 'burundez', 'female': 'burundeză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'புருண்டிய', 'female': 'புருண்டிய' },
         },
         'Cabo Verdean': {
             'ar': { 'male': 'من الرأس الأخضر', 'female': 'من الرأس الأخضر' },
@@ -558,6 +598,7 @@ def main():
             'he': { 'male': 'כף ורדי', 'female': 'כף ורדית' },
             'ro': { 'male': 'capverdian', 'female': 'capverdiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Cambodian': {
             'ar': { 'male': 'كمبودي', 'female': 'كمبودية' },
@@ -571,6 +612,7 @@ def main():
             'he': { 'male': 'קמבודי', 'female': 'קמבודית' },
             'ro': { 'male': 'cambodgian', 'female': 'cambodgiană' },
             'sq': { 'male': 'kamboxhian', 'female': 'kamboxhiane' },
+            'ta': { 'male': 'கம்போடிய', 'female': 'கம்போடிய' },
         },
         'Cameroonian': {
             'ar': { 'male': 'كاميروني', 'female': 'كاميرونية' },
@@ -584,6 +626,7 @@ def main():
             'he': { 'male': 'קמרוני', 'female': 'קמרונית' },
             'ro': { 'male': 'camerunez', 'female': 'cameruneză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கமரூனிய', 'female': 'கமரூனிய' },
         },
         'Canadian': {
             'ar': { 'male': 'كندي', 'female': 'كندية' },
@@ -597,6 +640,7 @@ def main():
             'he': { 'male': 'קנדי', 'female': 'קנדית' },
             'ro': { 'male': 'canadian', 'female': 'canadiană' },
             'sq': { 'male': 'kanadez', 'female': 'kanadeze' },
+            'ta': { 'male': 'கனடிய', 'female': 'கனடிய' },
         },
         'Chadian': {
             'ar': { 'male': 'تشادي', 'female': 'تشادية' },
@@ -610,6 +654,7 @@ def main():
             'he': { 'male': 'צ\'אדי', 'female': 'צ\'אדית' },
             'ro': { 'male': 'din Ciad', 'female': 'din Ciad' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Chilean': {
             'ar': { 'male': 'تشيلي', 'female': 'تشيلية' },
@@ -623,6 +668,7 @@ def main():
             'he': { 'male': 'צ\'יליאני', 'female': 'צ\'יליאני' },
             'ro': { 'male': 'chilian', 'female': 'chiliană' },
             'sq': { 'male': 'kilian', 'female': 'kiliane' },
+            'ta': { 'male': 'சிலிய', 'female': 'சிலிய' },
         },
         'Chinese': {
             'ar': { 'male': 'صيني', 'female': 'صينية' },
@@ -636,6 +682,7 @@ def main():
             'he': { 'male': 'סיני', 'female': 'סינית' },
             'ro': { 'male': 'chinez', 'female': 'chineză' },
             'sq': { 'male': 'kinez', 'female': 'kineze' },
+            'ta': { 'male': 'சீன', 'female': 'சீன' },
         },
         'Colombian': {
             'ar': { 'male': 'كولومبي', 'female': 'كولومبية' },
@@ -649,6 +696,7 @@ def main():
             'he': { 'male': 'קולומביאני', 'female': 'קולומביאנית' },
             'ro': { 'male': 'columbian', 'female': 'columbiană' },
             'sq': { 'male': 'kolumbian', 'female': 'kolumbiane' },
+            'ta': { 'male': 'கொலம்பிய', 'female': 'கொலம்பிய' },
         },
         'Comoran': {
             'ar': { 'male': 'قمري', 'female': 'قمرية' },
@@ -662,6 +710,7 @@ def main():
             'he': { 'male': 'קומורואי', 'female': 'קומורואית' },
             'ro': { 'male': 'din Comore', 'female': 'din Comore' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கொமொரோனிய', 'female': 'கொமொரோனிய' },
         },
         'Comorian': {
             'ar': { 'male': 'قمري', 'female': 'قمرية' },
@@ -675,6 +724,7 @@ def main():
             'he': { 'male': 'קומורואי', 'female': 'קומורואית' },
             'ro': { 'male': 'din Comore', 'female': 'din Comore' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கொமொரோனிய', 'female': 'கொமொரோனிய' },
         },
         'Congolese': {
             'ar': { 'male': 'كونغولي', 'female': 'كونغولية' },
@@ -688,6 +738,7 @@ def main():
             'he': { 'male': 'קונגולזי', 'female': 'קונגולזית' },
             'ro': { 'male': 'congolez', 'female': 'congoleză' },
             'sq': { 'male': 'kongolez', 'female': 'kongoleze' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Costa Rican': {
             'ar': { 'male': 'كوستاريكي', 'female': 'كوستاريكية' },
@@ -701,6 +752,7 @@ def main():
             'he': { 'male': 'קוסטה ריקני', 'female': 'קוסטה ריקנית' },
             'ro': { 'male': 'costarican', 'female': 'costaricană' },
             'sq': { 'male': 'kostarikan', 'female': 'kostarikane' },
+            #'ta': { 'male': 'கோஸ்ட்டா ரிக்கா', 'female': 'கோஸ்ட்டா ரிக்கா' },
         },
         'Croatian': {
             'ar': { 'male': 'كرواتي', 'female': 'كرواتية' },
@@ -714,6 +766,7 @@ def main():
             'he': { 'male': 'קרואטי', 'female': 'קרואטית' },
             'ro': { 'male': 'croat', 'female': 'croată' },
             'sq': { 'male': 'kroat', 'female': 'kroate' },
+            'ta': { 'male': 'குரோவாசிய', 'female': 'குரோவாசிய' },
         },
         'Cuban': {
             'ar': { 'male': 'كوبي', 'female': 'كوبية' },
@@ -727,6 +780,7 @@ def main():
             'he': { 'male': 'קובני', 'female': 'קובנית' },
             'ro': { 'male': 'cubanez', 'female': 'cubaneză' },
             'sq': { 'male': 'kubanez', 'female': 'kubaneze' },
+            'ta': { 'male': 'கியூபா நாட்டு', 'female': 'கியூபா நாட்டு' },
         },
         'Cypriot': {
             'ar': { 'male': 'قبرصي', 'female': 'قبرصية' },
@@ -740,6 +794,7 @@ def main():
             'he': { 'male': 'קפריסאי', 'female': 'קפריסאית' },
             'ro': { 'male': 'cipriot', 'female': 'cipriotă' },
             'sq': { 'male': 'qipriot', 'female': 'qipriote' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Czech': {
             'ar': { 'male': 'تشيكي', 'female': 'تشيكية' },
@@ -753,6 +808,7 @@ def main():
             'he': { 'male': 'צ\'כי', 'female': 'צ\'כית' },
             'ro': { 'male': 'ceh', 'female': 'cehă' },
             'sq': { 'male': 'çek', 'female': 'çeke' },
+            'ta': { 'male': 'செக் நாட்டு', 'female': 'செக் நாட்டு' },
         },
         'Danish': {
             'ar': { 'male': 'دنماركي', 'female': 'دنماركية' },
@@ -766,6 +822,7 @@ def main():
             'he': { 'male': 'דני', 'female': 'דנית' },
             'ro': { 'male': 'danez', 'female': 'daneză' },
             'sq': { 'male': 'danez', 'female': 'daneze' },
+            'ta': { 'male': 'டேனிய', 'female': 'டேனிய' },
         },
         'Djiboutian': {
             'ar': { 'male': 'جيبوتي', 'female': 'جيبوتية' },
@@ -779,6 +836,7 @@ def main():
             'he': { 'male': 'ג\'יבוטי', 'female': 'ג\'יבוטית' },
             'ro': { 'male': 'djiboutian', 'female': 'djiboutiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'சீபூத்தீய', 'female': 'சீபூத்தீய' },
         },
         'Dutch': {
             'ar': { 'male': 'هولندي', 'female': 'هولندية' },
@@ -792,6 +850,7 @@ def main():
             'he': { 'male': 'הולנדי', 'female': 'הולנדית' },
             'ro': { 'male': 'olandez', 'female': 'olandeză' },
             'sq': { 'male': 'holandez', 'female': 'holandeze' },
+            'ta': { 'male': 'நெதர்லாந்திய', 'female': 'நெதர்லாந்திய' },
         },
         'Ecuadorian': {
             'ar': { 'male': 'إكوادوري', 'female': 'إكوادورية' },
@@ -805,6 +864,7 @@ def main():
             'he': { 'male': 'אקוודורי', 'female': 'אקוודורית' },
             'ro': { 'male': 'ecuadorian', 'female': 'ecuadoriană' },
             'sq': { 'male': 'ekuatorian', 'female': 'ekuatoriane' },
+            'ta': { 'male': 'எக்குவடோரிய', 'female': 'எக்குவடோரிய' },
         },
         'Egyptian': {
             'ar': { 'male': 'مصري', 'female': 'مصرية' },
@@ -818,6 +878,7 @@ def main():
             'he': { 'male': 'מצרי', 'female': 'מצרית' },
             'ro': { 'male': 'egiptean', 'female': 'egipteană' },
             'sq': { 'male': 'egjiptian', 'female': 'egjiptiane' },
+            'ta': { 'male': 'எகிப்திய', 'female': 'எகிப்திய' },
         },
         'Emirati': {
             'ar': { 'male': 'إماراتي', 'female': 'إماراتية' },
@@ -831,6 +892,7 @@ def main():
             'he': { 'male': 'מאיחוד האמירויות הערביות', 'female': 'מאיחוד האמירויות הערביות' },
             'ro': { 'male': 'emirian', 'female': 'emiriană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'அமீரக', 'female': 'அமீரக' },
         },
         'Emiri': {
             'ar': { 'male': 'إماراتي', 'female': 'إماراتية' },
@@ -844,6 +906,7 @@ def main():
             'he': { 'male': 'מאיחוד האמירויות הערביות', 'female': 'מאיחוד האמירויות הערביות' },
             'ro': { 'male': 'emirian', 'female': 'emiriană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'அமீரக', 'female': 'அமீரக' },
         },
         'Emirian': {
             'ar': { 'male': 'إماراتي', 'female': 'إماراتية' },
@@ -857,6 +920,7 @@ def main():
             'he': { 'male': 'מאיחוד האמירויות הערביות', 'female': 'מאיחוד האמירויות הערביות' },
             'ro': { 'male': 'emirian', 'female': 'emiriană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'அமீரக', 'female': 'அமீரக' },
         },
         'Equatoguinean': {
             'ar': { 'male': 'من غينيا الاستوائية', 'female': 'من غينيا الاستوائية' },
@@ -870,6 +934,7 @@ def main():
             'he': { 'male': 'מגינאה המשוונית', 'female': 'מגינאה המשוונית' },
             'ro': { 'male': 'guineoecuatorian', 'female': 'guineoecuatoriană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'ஈக்வாடோகுனிய', 'female': 'ஈக்வாடோகுனிய' },
         },
         'Equatorial Guinean': {
             'ar': { 'male': 'من غينيا الاستوائية', 'female': 'من غينيا الاستوائية' },
@@ -883,6 +948,7 @@ def main():
             'he': { 'male': 'מגינאה המשוונית', 'female': 'מגינאה המשוונית' },
             'ro': { 'male': 'guineoecuatorian', 'female': 'guineoecuatoriană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'எக்குவடோரியல் கினி நாட்டு', 'female': 'எக்குவடோரியல் கினி நாட்டு' },
         },
         'Eritrean': {
             'ar': { 'male': 'إريتري', 'female': 'إريترية' },
@@ -896,6 +962,7 @@ def main():
             'he': { 'male': 'אריתריאי', 'female': 'אריתריאית' },
             'ro': { 'male': 'din Eritreea', 'female': 'din Eritreea' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'எரித்திரிய', 'female': 'எரித்திரிய' },
         },
         'Estonian': {
             'ar': { 'male': 'إستوني', 'female': 'إستونية' },
@@ -909,6 +976,7 @@ def main():
             'he': { 'male': 'אסטוני', 'female': 'אסטונית' },
             'ro': { 'male': 'estonian', 'female': 'estoniană' },
             'sq': { 'male': 'estonez', 'female': 'estoneze' },
+            'ta': { 'male': 'எசுத்தோனிய', 'female': 'எசுத்தோனிய' },
         },
         'Ethiopian': {
             'ar': { 'male': 'إثيوبي', 'female': 'إثيوبية' },
@@ -922,6 +990,7 @@ def main():
             'he': { 'male': 'אתיופי', 'female': 'אתיופית' },
             'ro': { 'male': 'etiopian', 'female': 'etiopiană' },
             'sq': { 'male': 'etiopias', 'female': 'etiopiase' },
+            'ta': { 'male': 'எத்தியோப்பிய', 'female': 'எத்தியோப்பிய' },
         },
         'Fijian': {
             'ar': { 'male': 'فيجي', 'female': 'فيجية' },
@@ -935,6 +1004,7 @@ def main():
             'he': { 'male': 'פיג\'יאני', 'female': 'פיג\'יאנית' },
             'ro': { 'male': 'din Fiji', 'female': 'din Fiji' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'பிஜி நாட்டு', 'female': 'பிஜி நாட்டு ' },
         },
         'Filipino': {
             'ar': { 'male': 'فلبيني', 'female': 'فلبينية' },
@@ -948,6 +1018,7 @@ def main():
             'he': { 'male': 'פיליפיני', 'female': 'פיליפינית' },
             'ro': { 'male': 'filipinez', 'female': 'filipineză' },
             'sq': { 'male': 'filipinas', 'female': 'filipinase' },
+            'ta': { 'male': 'பிலிப்பீனிய', 'female': 'பிலிப்பீனிய' },
         },
         'Finnish': {
             'ar': { 'male': 'فنلندي', 'female': 'فنلندية' },
@@ -961,6 +1032,7 @@ def main():
             'he': { 'male': 'פיני', 'female': 'פינית' },
             'ro': { 'male': 'finlandez', 'female': 'finlandeză' },
             'sq': { 'male': 'finlandez', 'female': 'finlandeze' },
+            'ta': { 'male': 'பின்லாந்திய', 'female': 'பின்லாந்திய' },
         },
         'French': {
             'ar': { 'male': 'فرنسي', 'female': 'فرنسية' },
@@ -974,6 +1046,7 @@ def main():
             'he': { 'male': 'צרפתי', 'female': 'צרפתייה' },
             'ro': { 'male': 'francez', 'female': 'franceză' },
             'sq': { 'male': 'francez', 'female': 'franceze' },
+            'ta': { 'male': 'பிரான்சிய', 'female': 'பிரான்சிய' },
         },
         'Gabonese': {
             'ar': { 'male': 'غابوني', 'female': 'غابونية' },
@@ -987,6 +1060,7 @@ def main():
             'he': { 'male': 'גבונזי', 'female': 'גבונזית' },
             'ro': { 'male': 'gabonez', 'female': 'gaboneză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'காபோனிய', 'female': 'காபோனிய' },
         },
         'Gambian': {
             'ar': { 'male': 'غامبي', 'female': 'غامبية' },
@@ -1000,6 +1074,7 @@ def main():
             'he': { 'male': 'גמביאני', 'female': 'גמביאנית' },
             'ro': { 'male': 'gambian', 'female': 'gambiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'காம்பிய', 'female': 'காம்பிய' },
         },
         'Georgian': {
             'ar': { 'male': 'جورجي', 'female': 'جورجية' },
@@ -1013,6 +1088,7 @@ def main():
             'he': { 'male': 'גאורגי', 'female': 'גאורגית' },
             'ro': { 'male': 'georgian', 'female': 'georgiană' },
             'sq': { 'male': 'gjeorgjian', 'female': 'gjeorgjiane' },
+            'ta': { 'male': 'சியார்சிய', 'female': 'சியார்சிய' },
         },
         'German': {
             'ar': { 'male': 'ألماني', 'female': 'ألمانية' },
@@ -1026,6 +1102,7 @@ def main():
             'he': { 'male': 'גרמני', 'female': 'גרמנייה' },
             'ro': { 'male': 'german', 'female': 'germană' },
             'sq': { 'male': 'gjerman', 'female': 'gjermane' },
+            'ta': { 'male': 'செருமனிய', 'female': 'செருமனிய' },
         },
         'Ghanaian': {
             'ar': { 'male': 'غاني', 'female': 'غانية' },
@@ -1039,6 +1116,7 @@ def main():
             'he': { 'male': 'גאנאי', 'female': 'גאנאית' },
             'ro': { 'male': 'ghanez', 'female': 'ghaneză' },
             'sq': { 'male': 'ganez', 'female': 'ganeze' },
+            'ta': { 'male': 'கானா நாட்டு', 'female': 'கானா நாட்டு' },
         },
         'Greek': {
             'ar': { 'male': 'يوناني', 'female': 'يونانية' },
@@ -1052,6 +1130,7 @@ def main():
             'he': { 'male': 'יווני', 'female': 'יוונייה' },
             'ro': { 'male': 'grec', 'female': 'greacă' },
             'sq': { 'male': 'grek', 'female': 'greke' },
+            'ta': { 'male': 'கிரேக்க', 'female': 'கிரேக்க' },
         },
         'Greenlandic': {
             'ar': { 'male': 'غرينلاندي', 'female': 'غرينلاندية' },
@@ -1065,6 +1144,7 @@ def main():
             'he': { 'male': 'גרינלנדי', 'female': 'גרינלנדית' },
             'ro': { 'male': 'groenlandez', 'female': 'groenlandeză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கிரீன்லாந்திய', 'female': 'கிரீன்லாந்திய' },
         },
         'Grenadian': {
             'ar': { 'male': 'غرينادي', 'female': 'غرينادية' },
@@ -1078,6 +1158,7 @@ def main():
             'he': { 'male': 'גרנדי', 'female': 'גרנדית' },
             'ro': { 'male': 'grenadian', 'female': 'grenadiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கிரெனடிய', 'female': 'கிரெனடிய' },
         },
         'Guatemalan': {
             'ar': { 'male': 'غواتيمالي', 'female': 'غواتيمالية' },
@@ -1091,6 +1172,7 @@ def main():
             'he': { 'male': 'גואטמלי', 'female': 'גואטמלית' },
             'ro': { 'male': 'guatemalez', 'female': 'guatemaleză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'குவாத்தமாலா நாட்டு', 'female': 'குவாத்தமாலா நாட்டு' },
         },
         'Guinean': {
             'ar': { 'male': 'غيني', 'female': 'غينية' },
@@ -1104,6 +1186,7 @@ def main():
             'he': { 'male': 'גינאי', 'female': 'גינאית' },
             'ro': { 'male': 'guineean', 'female': 'guineeană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கினி நாட்டு', 'female': 'கினி நாட்டு' },
         },
         'Guyanese': {
             'ar': { 'male': 'غياني', 'female': 'غيانية' },
@@ -1117,6 +1200,7 @@ def main():
             'he': { 'male': 'גיאני', 'female': 'גיאנית' },
             'ro': { 'male': 'guyanez', 'female': 'guyaneză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கயானா நாட்டு', 'female': 'கயானா நாட்டு' },
         },
         'Haitian': {
             'ar': { 'male': 'هايتي', 'female': 'هايتية' },
@@ -1130,6 +1214,7 @@ def main():
             'he': { 'male': 'האיטי', 'female': 'האיטית' },
             'ro': { 'male': 'haitian', 'female': 'haitiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'எயித்திய', 'female': 'எயித்திய' },
         },
         'Herzegovinian': {
             'ar': { 'male': 'هرسكي', 'female': 'هرسكية' },
@@ -1143,6 +1228,7 @@ def main():
             'he': { 'male': 'הרצגוביני', 'female': 'הרצגובינית' },
             #'ro': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Honduran': {
             'ar': { 'male': 'هندوراسي', 'female': 'هندوراسية' },
@@ -1156,6 +1242,7 @@ def main():
             'he': { 'male': 'הונדורסי', 'female': 'הונדורסית' },
             'ro': { 'male': 'din Honduras', 'female': 'din Honduras' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'ஒண்டுராசிய', 'female': 'ஒண்டுராசிய' },
         },
         'Hungarian': {
             'ar': { 'male': 'مجري', 'female': 'مجرية' },
@@ -1169,6 +1256,7 @@ def main():
             'he': { 'male': 'הונגרי', 'female': 'הונגרייה' },
             'ro': { 'male': 'maghiar', 'female': 'maghiară' },
             'sq': { 'male': 'hungarez', 'female': 'hungareze' },
+            'ta': { 'male': 'அங்கேரிய', 'female': 'அங்கேரிய' },
         },
         'Icelandic': {
             'ar': { 'male': 'آيسلندي', 'female': 'آيسلندية' },
@@ -1182,6 +1270,7 @@ def main():
             'he': { 'male': 'איסלנדי', 'female': 'איסלנדית' },
             'ro': { 'male': 'islandez', 'female': 'islandeză' },
             'sq': { 'male': 'islandez', 'female': 'islandeze' },
+            'ta': { 'male': 'ஐசுலாந்திய', 'female': 'ஐசுலாந்திய' },
         },
         'I-Kiribati': {
             'ar': { 'male': 'كيريباتي', 'female': 'كيريباتية' },
@@ -1195,6 +1284,7 @@ def main():
             'he': { 'male': 'קיריבטי', 'female': 'קיריבטית' },
             'ro': { 'male': 'kiribatian', 'female': 'kiribatiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Indian': {
             'ar': { 'male': 'هندي', 'female': 'هندية' },
@@ -1208,6 +1298,7 @@ def main():
             'he': { 'male': 'הודי', 'female': 'הודית' },
             'ro': { 'male': 'indian', 'female': 'indiană' },
             'sq': { 'male': 'indian', 'female': 'indiane' },
+            'ta': { 'male': 'இந்திய', 'female': 'இந்திய' },
         },
         'Indonesian': {
             'ar': { 'male': 'إندونيسي', 'female': 'إندونيسية' },
@@ -1221,6 +1312,7 @@ def main():
             'he': { 'male': 'אינדונזי', 'female': 'אינדונזית' },
             'ro': { 'male': 'indonezian', 'female': 'indoneziană' },
             'sq': { 'male': 'indonezian', 'female': 'indoneziane' },
+            'ta': { 'male': 'இந்தோனேசிய', 'female': 'இந்தோனேசிய' },
         },
         'Iranian': {
             'ar': { 'male': 'إيراني', 'female': 'إيرانية' },
@@ -1234,6 +1326,7 @@ def main():
             'he': { 'male': 'איראני', 'female': 'איראנית' },
             'ro': { 'male': 'iranian', 'female': 'iraniană' },
             'sq': { 'male': 'iranian', 'female': 'iraniane' },
+            'ta': { 'male': 'ஈரானிய', 'female': 'ஈரானிய' },
         },
         'Iraqi': {
             'ar': { 'male': 'عراقي', 'female': 'عراقية' },
@@ -1247,6 +1340,7 @@ def main():
             'he': { 'male': 'עיראקי', 'female': 'עיראקית' },
             'ro': { 'male': 'irakian', 'female': 'irakiană' },
             'sq': { 'male': 'irakian', 'female': 'irakiane' },
+            'ta': { 'male': 'இராக்கிய', 'female': 'இராக்கிய' },
         },
         'Irish': {
             'ar': { 'male': 'أيرلندي', 'female': 'أيرلندية' },
@@ -1260,6 +1354,7 @@ def main():
             'he': { 'male': 'אירי', 'female': 'אירית' },
             'ro': { 'male': 'irlandez', 'female': 'irlandeză' },
             'sq': { 'male': 'irlandez', 'female': 'irlandeze' },
+            'ta': { 'male': 'ஐரிய', 'female': 'ஐரிய' },
         },
         'Israeli': {
             'ar': { 'male': 'إسرائيلي', 'female': 'إسرائيلية' },
@@ -1273,6 +1368,7 @@ def main():
             'he': { 'male': 'ישראלי', 'female': 'ישראלית' },
             'ro': { 'male': 'israelian', 'female': 'israeliană' },
             'sq': { 'male': 'izraelit', 'female': 'izraelite' },
+            'ta': { 'male': 'இசுரேலிய', 'female': 'இசுரேலிய' },
         },
         'Italian': {
             'ar': { 'male': 'إيطالي', 'female': 'إيطالية' },
@@ -1286,6 +1382,7 @@ def main():
             'he': { 'male': 'איטלקי', 'female': 'איטלקייה' },
             'ro': { 'male': 'italian', 'female': 'italiană' },
             'sq': { 'male': 'italian', 'female': 'italiane' },
+            'ta': { 'male': 'இத்தாலிய', 'female': 'இத்தாலிய' },
         },
         'Ivorian': {
             'ar': { 'male': 'إيفواري', 'female': 'إيفوارية' },
@@ -1299,6 +1396,7 @@ def main():
             'he': { 'male': 'מחוף השנהב', 'female': 'מחוף השנהב' },
             'ro': { 'male': 'ivorian', 'female': 'ivoriană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'ஐவோரிய', 'female': 'ஐவோரிய' },
         },
         'Jamaican': {
             'ar': { 'male': 'جمايكي', 'female': 'جمايكية' },
@@ -1312,6 +1410,7 @@ def main():
             'he': { 'male': 'ג\'מייקני', 'female': 'ג\'מייקנית' },
             'ro': { 'male': 'jamaican', 'female': 'jamaicană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'யமைக்கா  நாட்டு', 'female': 'யமைக்கா  நாட்டு' },
         },
         'Japanese': {
             'ar': { 'male': 'ياباني', 'female': 'يابانية' },
@@ -1325,6 +1424,7 @@ def main():
             'he': { 'male': 'יפני', 'female': 'יפנית' },
             'ro': { 'male': 'japonez', 'female': 'japoneză' },
             'sq': { 'male': 'japonez', 'female': 'japoneze' },
+            'ta': { 'male': 'சப்பானிய', 'female': 'சப்பானிய' },
         },
         'Jordanian': {
             'ar': { 'male': 'أردني', 'female': 'أردنية' },
@@ -1338,6 +1438,7 @@ def main():
             'he': { 'male': 'ירדני', 'female': 'ירדנית' },
             'ro': { 'male': 'iordanian', 'female': 'iordaniană' },
             'sq': { 'male': 'jordanez', 'female': 'jordaneze' },
+            'ta': { 'male': 'ஜோர்தானிய', 'female': 'ஜோர்தானிய' },
         },
         'Kazakh': {
             'ar': { 'male': 'كازاخي', 'female': 'كازاخية' },
@@ -1351,6 +1452,7 @@ def main():
             'he': { 'male': 'קזחי', 'female': 'קזחית' },
             'ro': { 'male': 'kazah', 'female': 'kazahă' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கசாக்குசுத்தானிய', 'female': 'கசாக்குசுத்தானிய' },
         },
         'Kazakhstani': {
             'ar': { 'male': 'كازاخستاني', 'female': 'كازاخستانية' },
@@ -1364,6 +1466,7 @@ def main():
             'he': { 'male': 'קזחי', 'female': 'קזחית' },
             'ro': { 'male': 'kazah', 'female': 'kazahă' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கசாக்குசுத்தானிய', 'female': 'கசாக்குசுத்தானிய' },
         },
         'Kenyan': {
             'ar': { 'male': 'كيني', 'female': 'كينية' },
@@ -1377,6 +1480,7 @@ def main():
             'he': { 'male': 'קנייתי', 'female': 'קנייתית' },
             'ro': { 'male': 'kenyan', 'female': 'kenyană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கென்ய', 'female': 'கென்ய' },
         },
         'Kirghiz': {
             'ar': { 'male': 'قيرغيزي', 'female': 'قيرغيزية' },
@@ -1390,6 +1494,7 @@ def main():
             'he': { 'male': 'קירגיזי', 'female': 'קירגיזית' },
             'ro': { 'male': 'kirghiz', 'female': 'kirghiză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Kirgiz': {
             'ar': { 'male': 'قيرغيزي', 'female': 'قيرغيزية' },
@@ -1403,6 +1508,7 @@ def main():
             'he': { 'male': 'קירגיזי', 'female': 'קירגיזית' },
             'ro': { 'male': 'kirghiz', 'female': 'kirghiză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Kiribati': {
             'ar': { 'male': 'كيريباتي', 'female': 'كيريباتية' },
@@ -1416,6 +1522,7 @@ def main():
             'he': { 'male': 'קיריבטי', 'female': 'קיריבטית' },
             'ro': { 'male': 'kiribatian', 'female': 'kiribatiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Kosovan': {
             'ar': { 'male': 'كوسوفي', 'female': 'كوسوفية' },
@@ -1429,6 +1536,7 @@ def main():
             'he': { 'male': 'קוסוברי', 'female': 'קוסוברית' },
             'ro': { 'male': 'kosovar', 'female': 'kosovară' },
             'sq': { 'male': 'kosovar', 'female': 'kosovare' },
+            #'ta': { 'male': 'கொசோவோ', 'female': 'கொசோவோ' },
         },
         'Kosovar': {
             'ar': { 'male': 'كوسوفي', 'female': 'كوسوفية' },
@@ -1442,6 +1550,7 @@ def main():
             'he': { 'male': 'קוסוברי', 'female': 'קוסוברית' },
             'ro': { 'male': 'kosovar', 'female': 'kosovară' },
             'sq': { 'male': 'kosovar', 'female': 'kosovare' },
+            #'ta': { 'male': 'கொசோவோ', 'female': 'கொசோவோ' },
         },
         'Kuwaiti': {
             'ar': { 'male': 'كويتي', 'female': 'كويتية' },
@@ -1455,6 +1564,7 @@ def main():
             'he': { 'male': 'כוויתי', 'female': 'כוויתית' },
             'ro': { 'male': 'kuwaitian', 'female': 'kuwaitiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'குவைத்திய', 'female': 'குவைத்திய' },
         },
         'Kyrgyz': {
             'ar': { 'male': 'قيرغيزي', 'female': 'قيرغيزية' },
@@ -1468,6 +1578,7 @@ def main():
             'he': { 'male': 'קירגיזי', 'female': 'קירגיזית' },
             'ro': { 'male': 'kirghiz', 'female': 'kirghiză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கிர்கிசுத்தானிய', 'female': 'கிர்கிசுத்தானிய' },          
         },
         'Kyrgyzstani': {
             'ar': { 'male': 'قيرغيزستاني', 'female': 'قيرغيزستانية' },
@@ -1481,6 +1592,7 @@ def main():
             'he': { 'male': 'קירגיזי', 'female': 'קירגיזית' },
             'ro': { 'male': 'kirghiz', 'female': 'kirghiză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கிர்கிசுத்தானிய', 'female': 'கிர்கிசுத்தானிய' },
         },
         'Lao': {
             'ar': { 'male': 'لاوسي', 'female': 'لاوسية' },
@@ -1494,6 +1606,7 @@ def main():
             'he': { 'male': 'מלאוס', 'female': 'מלאוס' },
             'ro': { 'male': 'laoțian', 'female': 'laoțiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'இலவோத்திய', 'female': 'இலவோத்திய' },
         },
         'Laotian': {
             'ar': { 'male': 'لاوسي', 'female': 'لاوسية' },
@@ -1507,6 +1620,7 @@ def main():
             'he': { 'male': 'מלאוס', 'female': 'מלאוס' },
             'ro': { 'male': 'laoțian', 'female': 'laoțiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'இலவோத்திய', 'female': 'இலவோத்திய' },
         },
         'Latvian': {
             'ar': { 'male': 'لاتفي', 'female': 'لاتفية' },
@@ -1520,6 +1634,7 @@ def main():
             'he': { 'male': 'לטבי', 'female': 'לטבית' },
             'ro': { 'male': 'leton', 'female': 'letonă' },
             'sq': { 'male': 'leton', 'female': 'letone' },
+            'ta': { 'male': 'இலத்துவிய', 'female': 'இலத்துவிய' },
         },
         'Lebanese': {
             'ar': { 'male': 'لبناني', 'female': 'لبنانية' },
@@ -1533,12 +1648,13 @@ def main():
             'he': { 'male': 'לבנוני', 'female': 'לבנונית' },
             'ro': { 'male': 'libanez', 'female': 'libaneză' },
             'sq': { 'male': 'libanez', 'female': 'libaneze' },
+            'ta': { 'male': 'லெபனானிய ', 'female': 'லெபனானிய' },
         },
         'Liberian': {
             'ar': { 'male': 'ليبيري', 'female': 'ليبيرية' },
             'bn': { 'male': 'লাইবেরিয়', 'female': 'লাইবেরিয়' },
             'ca': { 'male': 'liberià', 'female': 'liberiana' },
-            'en': { 'male': 'Liberian', 'female': 'Liberian' },
+            'en': { 'male': 'Liberian', 'female'#3C1212: 'Liberian' },
             'es': { 'male': 'liberiano', 'female': 'liberiana' },
             'et': { 'male': 'Libeeria', 'female': 'Libeeria' },
             'fr': { 'male': 'libérien', 'female': 'libérienne' },
@@ -1546,6 +1662,7 @@ def main():
             'he': { 'male': 'ליברי', 'female': 'ליברית' },
             'ro': { 'male': 'liberian', 'female': 'liberiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'லைபீரிய', 'female': 'லைபீரிய' },
         },
         'Libyan': {
             'ar': { 'male': 'ليبي', 'female': 'ليبية' },
@@ -1559,6 +1676,7 @@ def main():
             'he': { 'male': 'לובי', 'female': 'לובית' },
             'ro': { 'male': 'libian', 'female': 'libiană' },
             'sq': { 'male': 'libian', 'female': 'libiane' },
+            'ta': { 'male': 'லிபிய', 'female': 'லிபிய' },
         },
         'Liechtensteiner': {
             'ar': { 'male': 'ليختنشتايني', 'female': 'ليختنشتاينية' },
@@ -1572,6 +1690,7 @@ def main():
             'he': { 'male': 'ליכטנשטייני', 'female': 'ליכטנשטיינית' },
             'ro': { 'male': 'liechtensteinian', 'female': 'liechtensteiniană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Lithuanian': {
             'ar': { 'male': 'ليتواني', 'female': 'ليتوانية' },
@@ -1585,9 +1704,10 @@ def main():
             'he': { 'male': 'ליטאי', 'female': 'ליטאית' },
             'ro': { 'male': 'lituanian', 'female': 'lituaniană' },
             'sq': { 'male': 'lituanez', 'female': 'lituaneze' },
+            'ta': { 'male': 'இலித்துவானிய', 'female': 'இலித்துவானிய' },
         },
         'Luxembourg': {
-            'ar': { 'male': 'لوكسمبورغي', 'female': 'لوكسمبورغية' },
+            'ar': { 'male': 'لوكسمبورغي', '#FFFFFFfemale': 'لوكسمبورغية' },
             'bn': { 'male': 'লুক্সেমবুর্গীয়', 'female': 'লুক্সেমবুর্গীয়' },
             'ca': { 'male': 'luxemburguès', 'female': 'luxemburguesa' },
             'en': { 'male': 'Luxembourg', 'female': 'Luxembourg' },
@@ -1598,6 +1718,7 @@ def main():
             'he': { 'male': 'לוקסמבורגי', 'female': 'לוקסמבורגית' },
             'ro': { 'male': 'luxemburghez', 'female': 'luxemburgheză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Luxembourgish': {
             'ar': { 'male': 'لوكسمبورغي', 'female': 'لوكسمبورغية' },
@@ -1611,6 +1732,7 @@ def main():
             'he': { 'male': 'לוקסמבורגי', 'female': 'לוקסמבורגית' },
             'ro': { 'male': 'luxemburghez', 'female': 'luxemburgheză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Macanese': {
             'ar': { 'male': 'ماكاوي', 'female': 'ماكاوية' },
@@ -1624,6 +1746,7 @@ def main():
             'he': { 'male': 'ממקאו', 'female': 'ממקאו' },
             'ro': { 'male': 'din Macao', 'female': 'din Macao' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Macedonian': {
             'ar': { 'male': 'مقدوني', 'female': 'مقدونية' },
@@ -1637,6 +1760,7 @@ def main():
             'he': { 'male': 'מקדוני', 'female': 'מקדונית' },
             'ro': { 'male': 'macedonean', 'female': 'macedoneană' },
             'sq': { 'male': 'maqedonas', 'female': 'maqedonase' },
+            'ta': { 'male': 'மாசிடோனிய', 'female': 'மாசிடோனிய' },
         },
         'Malagasy': {
             'ar': { 'male': 'مدغشقري', 'female': 'مدغشقرية' },
@@ -1650,6 +1774,7 @@ def main():
             'he': { 'male': 'מלגשי', 'female': 'מלגשית' },
             'ro': { 'male': 'malgaș', 'female': 'malgașă' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மலகாசிய', 'female': 'மலகாசிய' },
         },
         'Malawian': {
             'ar': { 'male': 'ملاوي', 'female': 'ملاوية' },
@@ -1663,6 +1788,7 @@ def main():
             'he': { 'male': 'מלאווי', 'female': 'מלאווית' },
             'ro': { 'male': 'malawian', 'female': 'malawiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மலாவிய', 'female': 'மலாவிய' },
         },
         'Malaysian': {
             'ar': { 'male': 'ماليزي', 'female': 'ماليزية' },
@@ -1676,6 +1802,7 @@ def main():
             'he': { 'male': 'מלזי', 'female': 'מלזית' },
             'ro': { 'male': 'malaysian', 'female': 'malaysiană' },
             'sq': { 'male': 'malajzian', 'female': 'malajziane' },
+            'ta': { 'male': 'மலேசிய', 'female': 'மலேசிய' },
         },
         'Maldivian': {
             'ar': { 'male': 'مالديفي', 'female': 'مالديفية' },
@@ -1689,6 +1816,7 @@ def main():
             'he': { 'male': 'מולדובי', 'female': 'מולדובית' },
             'ro': { 'male': 'maldivian', 'female': 'maldiviană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மாலத்தீவு', 'female': 'மாலத்தீவு' },
         },
         'Malian': {
             'ar': { 'male': 'مالي', 'female': 'مالية' },
@@ -1702,6 +1830,7 @@ def main():
             'he': { 'male': 'מאלי', 'female': 'מאלית' },
             'ro': { 'male': 'malian', 'female': 'maliană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மாலி நாட்டு', 'female': 'மாலி நாட்டு' },
         },
         'Maltese': {
             'ar': { 'male': 'مالطي', 'female': 'مالطية' },
@@ -1715,6 +1844,7 @@ def main():
             'he': { 'male': 'מלטזי', 'female': 'מלטזית' },
             'ro': { 'male': 'maltez', 'female': 'malteză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Mauritanian': {
             'ar': { 'male': 'موريتاني', 'female': 'موريتانية' },
@@ -1728,6 +1858,7 @@ def main():
             'he': { 'male': 'מאוריטני', 'female': 'מאוריטנית' },
             'ro': { 'male': 'mauritanian', 'female': 'mauritaniană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மூரித்தானிய', 'female': 'மூரித்தானிய' },
         },
         'Mauritian': {
             'ar': { 'male': 'موريشيوسي', 'female': 'موريشيوسية' },
@@ -1741,6 +1872,7 @@ def main():
             'he': { 'male': 'מאוריציאני', 'female': 'מאוריציאנית' },
             'ro': { 'male': 'mauritian', 'female': 'mauritiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மூரித்தானிய', 'female': 'மூரித்தானிய' },
         },
         'Mexican': {
             'ar': { 'male': 'مكسيكي', 'female': 'مكسيكية' },
@@ -1754,6 +1886,7 @@ def main():
             'he': { 'male': 'מקסיקני', 'female': 'מקסיקנית' },
             'ro': { 'male': 'mexican', 'female': 'mexicană' },
             'sq': { 'male': 'meksikan', 'female': 'meksikane' },
+            'ta': { 'male': 'மெக்சிக்க', 'female': 'மெக்சிக்க' },
         },
         'Moldovan': {
             'ar': { 'male': 'مولدوفي', 'female': 'مولدوفية' },
@@ -1767,6 +1900,7 @@ def main():
             'he': { 'male': 'מולדובי', 'female': 'מולדובית' },
             'ro': { 'male': 'moldovean', 'female': 'moldoveană' },
             'sq': { 'male': 'moldav', 'female': 'moldave' },
+            'ta': { 'male': 'மல்தோவானிய', 'female': 'மல்தோவானிய' },
         },
         'Monacan': {
             'ar': { 'male': 'موناكي', 'female': 'موناكية' },
@@ -1780,6 +1914,7 @@ def main():
             'he': { 'male': 'מונגאסקי', 'female': 'מונגאסקית' },
             'ro': { 'male': 'monegasc', 'female': 'monegască' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மொனாக்கோ நாட்டு', 'female': 'மொனாக்கோ நாட்டு' },
         },
         'Monégasque': {
             'ar': { 'male': 'موناكي', 'female': 'موناكية' },
@@ -1793,6 +1928,7 @@ def main():
             'he': { 'male': 'מונגאסקי', 'female': 'מונגאסקית' },
             'ro': { 'male': 'monegasc', 'female': 'monegască' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மொனாக்கோ நாட்டு', 'female': 'மொனாக்கோ நாட்டு' },
         },
         'Mongolian': {
             'ar': { 'male': 'منغولي', 'female': 'منغولية' },
@@ -1806,6 +1942,7 @@ def main():
             'he': { 'male': 'מונגולי', 'female': 'מונגולית' },
             'ro': { 'male': 'mongol', 'female': 'mongolă' },
             'sq': { 'male': 'mongol', 'female': 'mongole' },
+            'ta': { 'male': 'மங்கோலிய', 'female': 'மங்கோலிய' },
         },
         'Montenegrin': {
             'ar': { 'male': 'مونتينيغري', 'female': 'مونتينيغرية' },
@@ -1819,6 +1956,7 @@ def main():
             'he': { 'male': 'מונטנגרי', 'female': 'מונטנגרית' },
             'ro': { 'male': 'muntenegrean', 'female': 'muntenegreană' },
             'sq': { 'male': 'malazez', 'female': 'malazeze' },
+            'ta': { 'male': 'மொண்டெனேகுரோ நாட்டு', 'female': 'மொண்டெனேகுரோ நாட்டு' },
         },
         'Moroccan': {
             'ar': { 'male': 'مغربي', 'female': 'مغربية' },
@@ -1832,6 +1970,7 @@ def main():
             'he': { 'male': 'מרוקאי', 'female': 'מרוקאית' },
             'ro': { 'male': 'marocan', 'female': 'marocană' },
             'sq': { 'male': 'maroken', 'female': 'marokene' },
+            'ta': { 'male': 'மொரோக்கோ நாட்டு', 'female': 'மொரோக்கோ நாட்டு' },
         },
         'Mosotho': { #Lesotho
             'ar': { 'male': 'ليسوثوي', 'female': 'ليسوثوية' },
@@ -1845,6 +1984,7 @@ def main():
             'he': { 'male': 'לסוטואי', 'female': 'לסוטואית' },
             'ro': { 'male': 'lesothian', 'female': 'lesothiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Mozambican': {
             'ar': { 'male': 'موزمبيقي', 'female': 'موزمبيقية' },
@@ -1858,6 +1998,7 @@ def main():
             'he': { 'male': 'מוזמביקי', 'female': 'מוזמביקית' },
             'ro': { 'male': 'mozambican', 'female': 'mozambicană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'மொசாம்பிக் நாட்டு', 'female': 'மொசாம்பிக் நாட்டு' },
         },
         'Namibian': {
             'ar': { 'male': 'ناميبي', 'female': 'ناميبية' },
@@ -1871,6 +2012,7 @@ def main():
             'he': { 'male': 'נמיבי', 'female': 'נמיבית' },
             'ro': { 'male': 'namibian', 'female': 'namibiană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'நமீபிய', 'female': 'நமீபிய' },
         },
         'Nauruan': {
             'ar': { 'male': 'ناوروني', 'female': 'ناورونية' },
@@ -1884,6 +2026,7 @@ def main():
             'he': { 'male': 'נאורי', 'female': 'נאורית' },
             'ro': { 'male': 'nauruan', 'female': 'nauruană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'நவூரிய', 'female': 'நவூரிய' },
         },
         'Nepalese': {
             'ar': { 'male': 'نيبالي', 'female': 'نيبالية' },
@@ -1897,6 +2040,7 @@ def main():
             'he': { 'male': 'נפאלי', 'female': 'נפאלית' },
             'ro': { 'male': 'nepalez', 'female': 'nepaleză' },
             'sq': { 'male': 'nepalez', 'female': 'nepaleze' },
+            'ta': { 'male': 'நேபாள', 'female': 'நேபாள' },
         },
         'Nepali': {
             'ar': { 'male': 'نيبالي', 'female': 'نيبالية' },
@@ -1910,6 +2054,7 @@ def main():
             'he': { 'male': 'נפאלי', 'female': 'נפאלית' },
             'ro': { 'male': 'nepalez', 'female': 'nepaleză' },
             'sq': { 'male': 'nepalez', 'female': 'nepaleze' },
+            'ta': { 'male': 'நேபாள', 'female': 'நேபாள' },
         },
         'New Zealand': {
             'ar': { 'male': 'نيوزيلندي', 'female': 'نيوزيلندية' },
@@ -1923,6 +2068,7 @@ def main():
             'he': { 'male': 'ניו זילנדי', 'female': 'ניו זילנדית' },
             'ro': { 'male': 'neozeelandez', 'female': 'neozeelandeză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'நியூசிலாந்திய', 'female': 'நியூசிலாந்திய' },
         },
         'Ni-Vanuatu': {
             'ar': { 'male': 'فانواتوي', 'female': 'فانواتوية' },
@@ -1936,6 +2082,7 @@ def main():
             'he': { 'male': 'ונואטי', 'female': 'ונואטית' },
             'ro': { 'male': 'din Vanuatu', 'female': 'din Vanuatu' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Nicaraguan': {
             'ar': { 'male': 'نيكاراغوي', 'female': 'نيكاراغوية' },
@@ -1949,6 +2096,7 @@ def main():
             'he': { 'male': 'ניקרגואי', 'female': 'ניקרגואית' },
             'ro': { 'male': 'nicaraguan', 'female': 'nicaraguană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'நிக்கராகுவா', 'female': 'நிக்கராகுவா' },
         },
         'Nigerian': {
             'ar': { 'male': 'نيجيري', 'female': 'نيجيرية' },
@@ -1962,6 +2110,7 @@ def main():
             'he': { 'male': 'ניגרי', 'female': 'ניגרית' },
             'ro': { 'male': 'nigerian', 'female': 'nigeriană' },
             'sq': { 'male': 'nigerian', 'female': 'nigeriane' },
+            'ta': { 'male': 'நைசீரிய', 'female': 'நைசீரிய' },
         },
         'Nigerien': {
             'ar': { 'male': 'نيجري', 'female': 'نيجرية' },
@@ -1975,6 +2124,7 @@ def main():
             'he': { 'male': 'ניז\'רי', 'female': 'ניז\'רית' },
             'ro': { 'male': 'din Niger', 'female': 'din Niger' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'நைசீரிய', 'female': 'நைசீரிய' },
         },
         'North Korean': {
             'ar': { 'male': 'كوري شمالي', 'female': 'كورية شمالية' },
@@ -1988,6 +2138,7 @@ def main():
             'he': { 'male': 'צפון קוריאני', 'female': 'צפון קוריאנית' },
             'ro': { 'male': 'nord-coreean', 'female': 'nord-coreeană' },
             'sq': { 'male': 'koreano-verior', 'female': 'koreano-veriore' },
+            'ta': { 'male': 'வட கொரிய', 'female': 'வட கொரிய' },
         },
         'Norwegian': {
             'ar': { 'male': 'نرويجي', 'female': 'نرويجية' },
@@ -2001,6 +2152,7 @@ def main():
             'he': { 'male': 'נורווגי', 'female': 'נורווגית' },
             'ro': { 'male': 'norvegian', 'female': 'norvegiană' },
             'sq': { 'male': 'norvegjez', 'female': 'norvegjeze' },
+            'ta': { 'male': 'நோர்வே நாட்டு', 'female': 'நோர்வே நாட்டு' },
         },
         'Omani': {
             'ar': { 'male': 'عماني', 'female': 'عمانية' },
@@ -2014,6 +2166,7 @@ def main():
             'he': { 'male': 'עומאני', 'female': 'עומאנית' },
             'ro': { 'male': 'omanez', 'female': 'omaneză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'ஓமன் நாட்டு', 'female': 'ஓமன் நாட்டு' },
         },
         'Pakistani': {
             'ar': { 'male': 'باكستاني', 'female': 'باكستانية' },
@@ -2027,6 +2180,7 @@ def main():
             'he': { 'male': 'פקיסטני', 'female': 'פקיסטנית' },
             'ro': { 'male': 'pakistanez', 'female': 'pakistaneză' },
             'sq': { 'male': 'pakistanez', 'female': 'pakistaneze' },
+            'ta': { 'male': 'பாக்கித்தானிய', 'female': 'பாக்கித்தானிய' },
         },
         'Palauan': {
             'ar': { 'male': 'بالاوي', 'female': 'بالاوية' },
@@ -2040,6 +2194,7 @@ def main():
             'he': { 'male': 'פלאואני', 'female': 'פלאואנית' },
             'ro': { 'male': 'din Palau', 'female': 'din Palau' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'பலாவு நாட்டு', 'female': 'பலாவு நாட்டு' },
         },
         'Palestinian': {
             'ar': { 'male': 'فلسطيني', 'female': 'فلسطينية' },
@@ -2053,6 +2208,7 @@ def main():
             'he': { 'male': 'פלסטיני', 'female': 'פלסטינית' },
             'ro': { 'male': 'palestinian', 'female': 'palestiniană' },
             'sq': { 'male': 'palestinez', 'female': 'palestineze' },
+            'ta': { 'male': 'பலத்தீனிய', 'female': 'பலத்தீனிய' },
         },
         'Panamanian': {
             'ar': { 'male': 'بنمي', 'female': 'بنمية' },
@@ -2066,6 +2222,7 @@ def main():
             'he': { 'male': 'פנמי', 'female': 'פנמית' },
             'ro': { 'male': 'panamez', 'female': 'panameză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Papua New Guinean': {
             'ar': { 'male': 'من بابوا غينيا الجديدة', 'female': 'من بابوا غينيا الجديدة' },
@@ -2079,6 +2236,7 @@ def main():
             'he': { 'male': 'מפפואה גינאה החדשה', 'female': 'מפפואה גינאה החדשה' },
             'ro': { 'male': 'papua-neoguineean', 'female': 'papua-neoguineeană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Papuan': {
             'ar': { 'male': 'من بابوا غينيا الجديدة', 'female': 'من بابوا غينيا الجديدة' },
@@ -2092,6 +2250,7 @@ def main():
             'he': { 'male': 'פפואי', 'female': 'פפואית' },
             'ro': { 'male': 'papuaș', 'female': 'papuașă' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Paraguayan': {
             'ar': { 'male': 'باراغواياني', 'female': 'باراغوايانية' },
@@ -2105,6 +2264,7 @@ def main():
             'he': { 'male': 'פרגוואי', 'female': 'פרגוואית' },
             'ro': { 'male': 'paraguayan', 'female': 'paraguayană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Peruvian': {
             'ar': { 'male': 'بيروفي', 'female': 'بيروفية' },
@@ -2118,6 +2278,7 @@ def main():
             'he': { 'male': 'פרואני', 'female': 'פרואנית' },
             'ro': { 'male': 'peruan', 'female': 'peruană' },
             'sq': { 'male': 'peruan', 'female': 'peruane' },
+            'ta': { 'male': 'பெரு நாட்டு', 'female': 'பெரு நாட்டு' },
         },
         'Philippine': {
             'ar': { 'male': 'فلبيني', 'female': 'فلبينية' },
@@ -2131,6 +2292,7 @@ def main():
             'he': { 'male': 'פיליפיני', 'female': 'פיליפינית' },
             'ro': { 'male': 'filipinez', 'female': 'filipineză' },
             'sq': { 'male': 'filipinez', 'female': 'filipineze' },
+            'ta': { 'male': 'பிலிப்பைனிய', 'female': 'பிலிப்பைனிய' },
         },
         'Polish': {
             'ar': { 'male': 'بولندي', 'female': 'بولندية' },
@@ -2144,6 +2306,7 @@ def main():
             'he': { 'male': 'פולני', 'female': 'פולנייה' },
             'ro': { 'male': 'polonez', 'female': 'poloneză' },
             'sq': { 'male': 'polak', 'female': 'polake' },
+            'ta': { 'male': 'போலந்திய', 'female': 'போலந்திய' },
         },
         'Portuguese': {
             'ar': { 'male': 'برتغالي', 'female': 'برتغالية' },
@@ -2157,6 +2320,7 @@ def main():
             'he': { 'male': 'פורטוגזי', 'female': 'פורטוגזית' },
             'ro': { 'male': 'portughez', 'female': 'portugheză' },
             'sq': { 'male': 'portugez', 'female': 'portugeze' },
+            'ta': { 'male': 'போர்த்துகீசிய', 'female': 'போர்த்துகீசிய' },
         },
         'Puerto Rican': {
             'ar': { 'male': 'بورتوريكي', 'female': 'بورتوريكية' },
@@ -2170,6 +2334,7 @@ def main():
             'he': { 'male': 'פוארטו ריקני', 'female': 'פוארטו ריקנית' },
             'ro': { 'male': 'portorican', 'female': 'portoricană' },
             'sq': { 'male': 'portorikan', 'female': 'portorikane' },
+            'ta': { 'male': 'புவேர்ட்டொ ரிக்க', 'female': 'புவேர்ட்டொ ரிக்க' },
         },
         'Qatari': {
             'ar': { 'male': 'قطري', 'female': 'قطرية' },
@@ -2183,6 +2348,7 @@ def main():
             'he': { 'male': 'קטרי', 'female': 'קטרית' },
             'ro': { 'male': 'din Qatar', 'female': 'din Qatar' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'கத்தார் நாட்டு', 'female': 'கத்தார் நாட்டு' },
         },
         'Romanian': {
             'ar': { 'male': 'روماني', 'female': 'رومانية' },
@@ -2196,6 +2362,7 @@ def main():
             'he': { 'male': 'רומני', 'female': 'רומנייה' },
             'ro': { 'male': 'român', 'female': 'română' },
             'sq': { 'male': 'rumun', 'female': 'rumune' },
+            'ta': { 'male': 'உரோமானிய', 'female': 'உரோமானிய' },
         },
         'Russian': {
             'ar': { 'male': 'روسي', 'female': 'روسية' },
@@ -2209,6 +2376,7 @@ def main():
             'he': { 'male': 'רוסי', 'female': 'רוסייה' },
             'ro': { 'male': 'rus', 'female': 'rusă' },
             'sq': { 'male': 'rus', 'female': 'ruse' },
+            'ta': { 'male': 'உருசிய', 'female': 'உருசிய' },
         },
         'Rwandan': {
             'ar': { 'male': 'رواندي', 'female': 'رواندية' },
@@ -2222,6 +2390,7 @@ def main():
             'he': { 'male': 'רואנדי', 'female': 'רואנדית' },
             'ro': { 'male': 'rwandez', 'female': 'rwandeză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'ருவாண்டானிய', 'female': 'ருவாண்டானிய' },
         },
         'Salvadoran': {
             'ar': { 'male': 'سلفادوري', 'female': 'سلفادورية' },
@@ -2235,6 +2404,7 @@ def main():
             'he': { 'male': 'אל סלוודורי', 'female': 'אל סלוודורית' },
             'ro': { 'male': 'salvadorian', 'female': 'salvadoriană' },
             'sq': { 'male': 'salvadoras', 'female': 'salvadorase' },
+            'ta': { 'male': 'சல்வடோரிய', 'female': 'சல்வடோரிய' },
         },
         'Sammarinese': {
             'ar': { 'male': 'من سان مارينو', 'female': 'من سان مارينو' },
@@ -2248,6 +2418,7 @@ def main():
             'he': { 'male': 'מסן מרינו', 'female': 'מסן מרינו' },
             'ro': { 'male': 'din San Marino', 'female': 'din San Marino' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Samoan': {
             'ar': { 'male': 'ساموي', 'female': 'ساموية' },
@@ -2261,6 +2432,7 @@ def main():
             'he': { 'male': 'סמואי', 'female': 'סמואית' },
             'ro': { 'male': 'samoan', 'female': 'samoană' },
             'sq': { 'male': 'samoan', 'female': 'samoane' },
+            'ta': { 'male': 'சமோவானிய', 'female': 'சமோவானிய' },
         },
         'São Toméan': {
             'ar': { 'male': 'ساوتومي', 'female': 'ساوتومية' },
@@ -2274,6 +2446,7 @@ def main():
             'he': { 'male': 'מסאו טומה ופרינסיפה', 'female': 'מסאו טומה ופרינסיפה' },
             'ro': { 'male': 'din São Tomé și Príncipe', 'female': 'din São Tomé și Príncipe' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Saudi': {
             'ar': { 'male': 'سعودي', 'female': 'سعودية' },
@@ -2287,6 +2460,7 @@ def main():
             'he': { 'male': 'סעודי', 'female': 'סעודית' },
             'ro': { 'male': 'saudit', 'female': 'saudită' },
             'sq': { 'male': 'saudit', 'female': 'saudite' },
+            'ta': { 'male': 'சவுதி அரேபிய', 'female': 'சவுதி அரேபிய' },
         },
         'Saudi Arabian': {
             'ar': { 'male': 'سعودي', 'female': 'سعودية' },
@@ -2300,6 +2474,7 @@ def main():
             'he': { 'male': 'סעודי', 'female': 'סעודית' },
             'ro': { 'male': 'saudit', 'female': 'saudită' },
             'sq': { 'male': 'saudit', 'female': 'saudite ' },
+            'ta': { 'male': 'சவுதி அரேபிய', 'female': 'சவுதி அரேபிய' },
         },
         'Senegalese': {
             'ar': { 'male': 'سنغالي', 'female': 'سنغالية' },
@@ -2313,6 +2488,7 @@ def main():
             'he': { 'male': 'סנגלי', 'female': 'סנגלית' },
             'ro': { 'male': 'senegalez', 'female': 'senegaleză' },
             'sq': { 'male': 'senegalez', 'female': 'senegaleze' },
+            'ta': { 'male': 'செனகலிய', 'female': 'செனகலிய' },
         },
         'Serbian': {
             'ar': { 'male': 'صربي', 'female': 'صربية' },
@@ -2326,6 +2502,7 @@ def main():
             'he': { 'male': 'סרבי', 'female': 'סרבית' },
             'ro': { 'male': 'sârb', 'female': 'sârbă' },
             'sq': { 'male': 'serb', 'female': 'serbe' },
+            'ta': { 'male': 'செர்பிய', 'female': 'செர்பிய' },
 
         },
         'Seychellois': {
@@ -2340,6 +2517,7 @@ def main():
             'he': { 'male': 'סיישלי', 'female': 'סיישלית' },
             'ro': { 'male': 'seychellez', 'female': 'seychelleză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Sierra Leonean': {
             'ar': { 'male': 'سيراليوني', 'female': 'سيراليونية' },
@@ -2353,6 +2531,7 @@ def main():
             'he': { 'male': 'סיירה לאוני', 'female': 'סיירה לאונית' },
             'ro': { 'male': 'din Sierra Leone', 'female': 'din Sierra Leone' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'சியேரா லியோனிய', 'female': 'சியேரா லியோனிய' },
         },
         'Singapore': {
             'ar': { 'male': 'سنغافوري', 'female': 'سنغافورية' },
@@ -2366,6 +2545,7 @@ def main():
             'he': { 'male': 'סינגפורי', 'female': 'סינגפורית' },
             'ro': { 'male': 'singaporez', 'female': 'singaporeză' },
             'sq': { 'male': 'singaporas', 'female': 'singaporase' },
+            'ta': { 'male': 'சிங்கப்பூர்', 'female': 'சிங்கப்பூர்' },
         },
         'Singaporean': {
             'ar': { 'male': 'سنغافوري', 'female': 'سنغافورية' },
@@ -2379,6 +2559,7 @@ def main():
             'he': { 'male': 'סינגפורי', 'female': 'סינגפורית' },
             'ro': { 'male': 'singaporez', 'female': 'singaporeză' },
             'sq': { 'male': 'singaporas', 'female': 'singaporase' },
+            'ta': { 'male': 'சிங்கப்பூர்', 'female': 'சிங்கப்பூர்' },
         },
         'Slovak': {
             'ar': { 'male': 'سلوفاكي', 'female': 'سلوفاكية' },
@@ -2392,6 +2573,7 @@ def main():
             'he': { 'male': 'סלובקי', 'female': 'סלובקית' },
             'ro': { 'male': 'slovac', 'female': 'slovacă' },
             'sq': { 'male': 'sllovak', 'female': 'sllovake' },
+            'ta': { 'male': 'சுலோவேனிய', 'female': 'சுலோவேனிய' },
         },
         'Slovene': {
             'ar': { 'male': 'سلوفيني', 'female': 'سلوفينية' },
@@ -2405,6 +2587,7 @@ def main():
             'he': { 'male': 'סלובני', 'female': 'סלובנית' },
             'ro': { 'male': 'sloven', 'female': 'slovenă' },
             'sq': { 'male': 'slloven', 'female': 'sllovene' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         'Slovenian': {
             'ar': { 'male': 'سلوفيني', 'female': 'سلوفينية' },
@@ -2418,6 +2601,7 @@ def main():
             'he': { 'male': 'סלובני', 'female': 'סלובנית' },
             'ro': { 'male': 'sloven', 'female': 'slovenă' },
             'sq': { 'male': 'slloven', 'female': 'sllovene' },
+            'ta': { 'male': 'சுலோவேனிய', 'female': 'சுலோவேனிய' },
         },
         'Somali': {
             'ar': { 'male': 'صومالي', 'female': 'صومالية' },
@@ -2431,6 +2615,7 @@ def main():
             'he': { 'male': 'סומלי', 'female': 'סומלית' },
             'ro': { 'male': 'somalez', 'female': 'somaleză' },
             'sq': { 'male': 'somalez', 'female': 'somaleze' },
+            'ta': { 'male': 'சோமாலிய', 'female': 'சோமாலிய' },
         },
         'South African': {
             'ar': { 'male': 'جنوب أفريقي', 'female': 'جنوب أفريقية' },
@@ -2444,6 +2629,7 @@ def main():
             'he': { 'male': 'דרום אפריקאי', 'female': 'דרום אפריקאית' },
             'ro': { 'male': 'sud-african', 'female': 'sud-africană' },
             'sq': { 'male': 'afrikano-jugor', 'female': 'afrikano-jugore' },
+            'ta': { 'male': 'தென்னாப்பிரிக்க', 'female': 'தென்னாப்பிரிக்க' },
         },
         'South Korean': {
             'ar': { 'male': 'كوري جنوبي', 'female': 'كورية جنوبية' },
@@ -2457,6 +2643,7 @@ def main():
             'he': { 'male': 'דרום קוריאני', 'female': 'דרום קוריאנית' },
             'ro': { 'male': 'sud-coreean', 'female': 'sud-coreeană' },
             'sq': { 'male': 'koreano-jugor', 'female': 'koreano-jugore' },
+            'ta': { 'male': 'தென் கொரிய', 'female': 'தென் கொரிய' },
         },
         'Spanish': {
             'ar': { 'male': 'إسباني', 'female': 'إسبانية' },
@@ -2470,6 +2657,7 @@ def main():
             'he': { 'male': 'ספרדי', 'female': 'ספרדייה' },
             'ro': { 'male': 'spaniol', 'female': 'spaniolă' },
             'sq': { 'male': 'spanjoll', 'female': 'spanjolle' },
+            'ta': { 'male': 'எசுப்பானிய', 'female': 'எசுப்பானிய' },
         },
         'Sri Lankan': {
             'ar': { 'male': 'سريلانكي', 'female': 'سريلانكية' },
@@ -2483,6 +2671,7 @@ def main():
             'he': { 'male': 'סרי לנקי', 'female': 'סרי לנקית' },
             'ro': { 'male': 'srilankez', 'female': 'srilankeză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'இலங்கை', 'female': 'இலங்கை' },
         },
         'Sudanese': {
             'ar': { 'male': 'سوداني', 'female': 'سودانية' },
@@ -2496,6 +2685,7 @@ def main():
             'he': { 'male': 'סודאני', 'female': 'סודאנית' },
             'ro': { 'male': 'sudanez', 'female': 'sudaneză' },
             'sq': { 'male': 'sudanez', 'female': 'sudaneze' },
+            'ta': { 'male': 'சூடானிய', 'female': 'சூடானிய' },
         },
         'Surinamese': {
             'ar': { 'male': 'سورينامي', 'female': 'سورينامية' },
@@ -2509,6 +2699,7 @@ def main():
             'he': { 'male': 'סורינאמי', 'female': 'סורינאמית' },
             'ro': { 'male': 'surinamez', 'female': 'surinameză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'சுரிநாமிய', 'female': 'சுரிநாமிய' },
         },
         'Swedish': {
             'ar': { 'male': 'سويدي', 'female': 'سويدية' },
@@ -2522,6 +2713,7 @@ def main():
             'he': { 'male': 'שוודי', 'female': 'שוודית' },
             'ro': { 'male': 'suedez', 'female': 'suedeză' },
             'sq': { 'male': 'suedez', 'female': 'suedeze' },
+            'ta': { 'male': 'சுவீடிய', 'female': 'சுவீடிய' },
         },
         'Swiss': {
             'ar': { 'male': 'سويسري', 'female': 'سويسرية' },
@@ -2535,6 +2727,7 @@ def main():
             'he': { 'male': 'שווייצרי', 'female': 'שווייצרית' },
             'ro': { 'male': 'elvețian', 'female': 'elvețiană' },
             'sq': { 'male': 'zviceran', 'female': 'zvicerane' },
+            'ta': { 'male': 'சுவிட்சர்லாந்திய', 'female': 'சுவிட்சர்லாந்திய' },
         },
         'Syrian': {
             'ar': { 'male': 'سوري', 'female': 'سورية' },
@@ -2548,6 +2741,7 @@ def main():
             'he': { 'male': 'סורי', 'female': 'סורית' },
             'ro': { 'male': 'sirian', 'female': 'siriană' },
             'sq': { 'male': 'sirian', 'female': 'siriane' },
+            'ta': { 'male': 'சிரிய', 'female': 'சிரிய' },
         },
         'Tajikistani': {
             'ar': { 'male': 'طاجيكستاني', 'female': 'طاجيكستانية' },
@@ -2561,6 +2755,7 @@ def main():
             'he': { 'male': 'טג\'יקי', 'female': 'טג\'יקית' },
             'ro': { 'male': 'tadjic', 'female': 'tadjică' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'தாஜிகித்தானிய', 'female': 'தாஜிகித்தானிய' },
         },
         'Tanzanian': {
             'ar': { 'male': 'تنزاني', 'female': 'تنزانية' },
@@ -2574,6 +2769,7 @@ def main():
             'he': { 'male': 'טנזני', 'female': 'טנזנית' },
             'ro': { 'male': 'tanzanian', 'female': 'tanzaniană' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'தான்சானிய', 'female': 'தான்சானிய' },
         },
         'Thai': {
             'ar': { 'male': 'تايلندي', 'female': 'تايلندية' },
@@ -2587,6 +2783,7 @@ def main():
             'he': { 'male': 'תאילנדי', 'female': 'תאילנדית' },
             'ro': { 'male': 'thailandez', 'female': 'thailandeză' },
             'sq': { 'male': 'tajlandez', 'female': 'tajlandeze' },
+            'ta': { 'male': 'தாய்லாந்து', 'female': 'தாய்லாந்து' },
         },
         'Timorese': {
             'ar': { 'male': 'تيموري', 'female': 'تيمورية' },
@@ -2600,6 +2797,7 @@ def main():
             'he': { 'male': 'טימורי', 'female': 'טימורית' },
             #'ro': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'திமோரிய', 'female': 'திமோரிய' },
         },
         'Togolese': {
             'ar': { 'male': 'توغولي', 'female': 'توغولية' },
@@ -2613,6 +2811,7 @@ def main():
             'he': { 'male': 'טוגולזי', 'female': 'טוגולזית' },
             'ro': { 'male': 'togolez', 'female': 'togoleză' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'தொங்கனிய', 'female': 'தொங்கனிய' },
         },
         'Tongan': {
             'ar': { 'male': 'تونغاني', 'female': 'تونغانية' },
@@ -2626,6 +2825,7 @@ def main():
             'he': { 'male': 'טונגי', 'female': 'טונגית' },
             'ro': { 'male': 'din Tonga', 'female': 'din Tonga' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'தொங்கனிய', 'female': 'தொங்கனிய' },
         },
         'Trinidadian': {
             'ar': { 'male': 'من ترينيداد', 'female': 'من ترينيداد' },
@@ -2639,6 +2839,7 @@ def main():
             'he': { 'male': 'מטרינידד וטובגו', 'female': 'מטרינידד וטובגו' },
             'ro': { 'male': 'din Trinidad și Tobago', 'female': 'din Trinidad și Tobago' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'திரினிடாடிய', 'female': 'திரினிடாடிய' },
         },
         'Tobagonian': {
             'ar': { 'male': 'من توباغو', 'female': 'من توباغو' },
@@ -2652,6 +2853,7 @@ def main():
             'he': { 'male': 'מטרינידד וטובגו', 'female': 'מטרינידד וטובגו' },
             'ro': { 'male': 'din Trinidad și Tobago', 'female': 'din Trinidad și Tobago' },
             #'sq': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
+            'ta': { 'male': 'டொபாகோனிய', 'female': 'டொபாகோனிய' },
         },
         'Tunisian': {
             'ar': { 'male': 'تونسي', 'female': 'تونسية' },
@@ -2665,6 +2867,7 @@ def main():
             'he': { 'male': 'תוניסאי', 'female': 'תוניסאית' },
             'ro': { 'male': 'tunisian', 'female': 'tunisiană' },
             'sq': { 'male': 'tunizian', 'female': 'tuniziane' },
+            'ta': { 'male': 'துனிசிய', 'female': 'துனிசிய' },
         },
         'Turkish': {
             'ar': { 'male': 'تركي', 'female': 'تركية' },
@@ -2678,6 +2881,7 @@ def main():
             'he': { 'male': 'טורקי', 'female': 'טורקייה' },
             'ro': { 'male': 'turc', 'female': 'turcă' },
             'sq': { 'male': 'turk', 'female': 'turke' },
+            'ta': { 'male': 'துருக்கிய', 'female': 'துருக்கிய' },
         },
         'Turkmen': {
             'ar': { 'male': 'تركماني', 'female': 'تركمانية' },
@@ -2691,6 +2895,7 @@ def main():
             'he': { 'male': 'טורקמני', 'female': 'טורקמנית' },
             'ro': { 'male': 'turkmen', 'female': 'turkmenă' },
             'sq': { 'male': 'turkmen', 'female': 'turkmene' },
+            'ta': { 'male': 'துருக்மெனிய', 'female': 'துருக்மெனிய' },
         },
         'Tuvaluan': {
             'ar': { 'male': 'توفالي', 'female': 'توفالية' },
@@ -2704,6 +2909,7 @@ def main():
             'he': { 'male': 'טובאלואני', 'female': 'טובאלואנית' },
             'ro': { 'male': 'tuvaluan', 'female': 'tuvaluană' },
             'sq': { 'male': 'tuvaluas', 'female': 'tuvaluase' },
+            'ta': { 'male': 'துவாலுவானிய', 'female': 'துவாலுவானிய' },
         },
         'Ugandan': {
             'ar': { 'male': 'أوغندي', 'female': 'أوغندية' },
@@ -2717,6 +2923,7 @@ def main():
             'he': { 'male': 'אוגנדי', 'female': 'אוגנדית' },
             'ro': { 'male': 'ugandez', 'female': 'ugandeză' },
             'sq': { 'male': 'ugandas', 'female': 'ugandase' },
+            'ta': { 'male': 'உகாண்டா நாட்டு', 'female': 'உகாண்டா நாட்டு' },
         },
         'UK': {
             'ar': { 'male': 'من المملكة المتحدة', 'female': 'من المملكة المتحدة' },
@@ -2730,6 +2937,7 @@ def main():
             'he': { 'male': 'בריטי', 'female': 'בריטית' },
             'ro': { 'male': 'britanic', 'female': 'britanică' },
             'sq': { 'male': 'britanik', 'female': 'britanike' },
+            'ta': { 'male': 'பிரித்தானிய', 'female': 'பிரித்தானிய' },
         },
         'U.K.': {
             'ar': { 'male': 'من المملكة المتحدة', 'female': 'من المملكة المتحدة' },
@@ -2743,6 +2951,7 @@ def main():
             'he': { 'male': 'בריטי', 'female': 'בריטית' },
             'ro': { 'male': 'britanic', 'female': 'britanică' },
             'sq': { 'male': 'britanik', 'female': 'britanike' },
+            'ta': { 'male': 'பிரித்தானிய', 'female': 'பிரித்தானிய' },
         },
         'Ukrainian': {
             'ar': { 'male': 'أوكراني', 'female': 'أوكرانية' },
@@ -2756,6 +2965,7 @@ def main():
             'he': { 'male': 'אוקראיני', 'female': 'אוקראינית' },
             'ro': { 'male': 'ucrainean', 'female': 'ucraineană' },
             'sq': { 'male': 'ukrainas', 'female': 'ukrainase' },
+            'ta': { 'male': 'உக்ரேனிய', 'female': 'உக்ரேனிய' },
 
         },
         'United States': {
@@ -2770,6 +2980,7 @@ def main():
             'he': { 'male': 'אמריקאי', 'female': 'אמריקאית' },
             'ro': { 'male': 'american', 'female': 'americană' },
             'sq': { 'male': 'amerikan', 'female': 'amerikane' },
+            'ta': { 'male': 'அமெரிக்க', 'female': 'அமெரிக்க' },
         },
         'Uruguayan': {
             'ar': { 'male': 'أوروغواياني', 'female': 'أوروغوايانية' },
@@ -2783,6 +2994,7 @@ def main():
             'he': { 'male': 'אורוגוואי', 'female': 'אורוגוואית' },
             'ro': { 'male': 'uruguayan', 'female': 'uruguayană' },
             'sq': { 'male': 'uruguajan', 'female': 'uruguajane' },
+            'ta': { 'male': 'உருகுவே நாட்டு', 'female': 'உருகுவே நாட்டு' },
         },
         'US': {
             'ar': { 'male': 'من الولايات المتحدة', 'female': 'من الولايات المتحدة' },
@@ -2796,6 +3008,7 @@ def main():
             'he': { 'male': 'אמריקאי', 'female': 'אמריקאית' },
             'ro': { 'male': 'american', 'female': 'americană' },
             'sq': { 'male': 'amerikan', 'female': 'amerikane' },
+            'ta': { 'male': 'அமெரிக்க', 'female': 'அமெரிக்க' },
         },
         'U.S.': {
             'ar': { 'male': 'من الولايات المتحدة', 'female': 'من الولايات المتحدة' },
@@ -2809,6 +3022,7 @@ def main():
             'he': { 'male': 'אמריקאי', 'female': 'אמריקאית' },
             'ro': { 'male': 'american', 'female': 'americană' },
             'sq': { 'male': 'amerikan', 'female': 'amerikane' },
+            'ta': { 'male': 'அமெரிக்க', 'female': 'அமெரிக்க' },
         },
         'Uzbek': {
             'ar': { 'male': 'أوزبكي', 'female': 'أوزبكية' },
@@ -2822,6 +3036,7 @@ def main():
             'he': { 'male': 'אוזבקי', 'female': 'אוזבקית' },
             'ro': { 'male': 'uzbec', 'female': 'uzbecă' },
             'sq': { 'male': 'uzbek', 'female': 'uzbeke' },
+            'ta': { 'male': 'உசுபெக்கிசுத்தானிய', 'female': 'உசுபெக்கிசுத்தானிய' },
         },
         'Uzbekistani': {
             'ar': { 'male': 'أوزبكستاني', 'female': 'أوزبكستانية' },
@@ -2835,6 +3050,7 @@ def main():
             'he': { 'male': 'אוזבקי', 'female': 'אוזבקית' },
             'ro': { 'male': 'uzbec', 'female': 'uzbecă' },
             'sq': { 'male': 'uzbek', 'female': 'uzbeke' },
+            'ta': { 'male': 'உசுபெக்கிசுத்தானிய', 'female': 'உசுபெக்கிசுத்தானிய' },
         },
         'Vanuatuan': {
             'ar': { 'male': 'فانواتوي', 'female': 'فانواتوية' },
@@ -2848,6 +3064,7 @@ def main():
             'he': { 'male': 'ונואטי', 'female': 'ונואטית' },
             'ro': { 'male': 'din Vanuatu', 'female': 'din Vanuatu' },
             'sq': { 'male': 'vanautues', 'female': 'vanautuese' },
+            'ta': { 'male': 'வனுவாட்டு', 'female': 'வனுவாட்டு' },
         },
         'Vatican': {
             'ar': { 'male': 'فاتيكاني', 'female': 'فاتيكانية' },
@@ -2861,6 +3078,7 @@ def main():
             'he': { 'male': 'מקריית הוותיקן', 'female': 'מקריית הוותיקן' },
             'ro': { 'male': 'din Vatican', 'female': 'din Vatican' },
             'sq': { 'male': 'vatikanas', 'female': 'vatikanase' },
+            'ta': { 'male': 'வத்திக்கான்', 'female': 'வத்திக்கான்' },
         },
         'Venezuelan': {
             'ar': { 'male': 'فنزويلي', 'female': 'فنزويلية' },
@@ -2874,6 +3092,7 @@ def main():
             'he': { 'male': 'ונצואלי', 'female': 'ונצואלית' },
             'ro': { 'male': 'venezuelean', 'female': 'venezueleană' },
             'sq': { 'male': 'venezuelas', 'female': 'venezuelase' },
+            'ta': { 'male': 'வெனிசுலானிய', 'female': 'வெனிசுலானிய' },
         },
         'Vietnamese': {
             'ar': { 'male': 'فيتنامي', 'female': 'فيتنامية' },
@@ -2887,6 +3106,7 @@ def main():
             'he': { 'male': 'וייטנאמי', 'female': 'וייטנאמית' },
             'ro': { 'male': 'vietnamez', 'female': 'vietnameză' },
             'sq': { 'male': 'vietnamez', 'female': 'vietnameze' },
+            'ta': { 'male': 'வியட்நாமிய', 'female': 'வியட்நாமிய' },
         },
         'Yemeni': {
             'ar': { 'male': 'يمني', 'female': 'يمنية' },
@@ -2900,6 +3120,7 @@ def main():
             'he': { 'male': 'תימני', 'female': 'תימנייה' },
             'ro': { 'male': 'yemenit', 'female': 'yemenită' },
             'sq': { 'male': 'jemenas', 'female': 'jemenase' },
+            'ta': { 'male': 'யெமெனிய', 'female': 'யெமெனிய' },
         },
         'Zambian': {
             'ar': { 'male': 'زامبي', 'female': 'زامبية' },
@@ -2913,6 +3134,7 @@ def main():
             'he': { 'male': 'זמבי', 'female': 'זמבית' },
             'ro': { 'male': 'zambian', 'female': 'zambiană' },
             'sq': { 'male': 'zambian', 'female': 'zambiane' },
+            'ta': { 'male': 'சாம்பிய', 'female': 'சாம்பிய' },
         },
         'Zimbabwean': {
             'ar': { 'male': 'زيمبابوي', 'female': 'زيمبابوية' },
@@ -2926,6 +3148,7 @@ def main():
             'he': { 'male': 'זימבבואי', 'female': 'זימבבואית' },
             'ro': { 'male': 'zimbabwian', 'female': 'zimbabwiană' },
             'sq': { 'male': 'zimbabvian', 'female': 'zimbabviane' },
+            'ta': { 'male': 'சிம்பாப்வே நாட்டு', 'female': 'சிம்பாப்வே நாட்டு' },
         },
     }
     #more occupations https://query.wikidata.org/#SELECT%20%3Foccupation%20%3FoccupationLabel%20%28COUNT%28%3Fitem%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%09%3Fitem%20wdt%3AP31%20wd%3AQ5.%0A%20%20%20%20%3Fitem%20wdt%3AP27%20wd%3AQ142.%0A%20%20%20%20%3Fitem%20wdt%3AP106%20%3Foccupation.%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%20%7D%0A%7D%0AGROUP%20by%20%3Foccupation%20%3FoccupationLabel%0AORDER%20BY%20DESC%28%3Fcount%29
@@ -2950,6 +3173,7 @@ def main():
             'he': { 'male': 'שחקן ~', 'female': 'שחקנית ~' },
             'ro': { 'male': 'actor ~', 'female': 'actriță ~' },
             'sq': { 'male': 'aktor ~', 'female': 'aktore ~' },
+            'ta': { 'male': '~ நடிகர்', 'female': '~ நடிகை' },
         },
         '~ alpine skier': {
             'en': { 'male': '~ alpine skier', 'female': '~ alpine skier' },
@@ -2958,18 +3182,22 @@ def main():
         '~ anatomist': {
             'en': { 'male': '~ anatomist', 'female': '~ anatomist' },
             'es': { 'male': 'anatomista ~', 'female': 'anatomista ~' },
+            'ta': { 'male': '~ உடற்கூறுநர்', 'female': '~ உடற்கூறுநர்' },
         },
         '~ anthropologist': {
             'en': { 'male': '~ anthropologist', 'female': '~ anthropologist' },
             'es': { 'male': 'antropólogo ~', 'female': 'antropóloga ~' },
+            'ta': { 'male': '~ மாந்தவியலர்', 'female': '~ மாந்தவியலர்' },
         },
         '~ archaeologist': {
             'en': { 'male': '~ archaeologist', 'female': '~ archaeologist' },
             'es': { 'male': 'arqueólogo ~', 'female': 'arqueóloga ~' },
+            'ta': { 'male': '~த் தொல்பொருள் ஆய்வாளர்', 'female': '~த் தொல்பொருள் ஆய்வாளர்' },
         },
         '~ archer': {
             'en': { 'male': '~ archer', 'female': '~ archer' },
             'es': { 'male': 'arquero ~', 'female': 'arquera ~' },
+            'ta': { 'male': '~ வில்லாளர்', 'female': '~ வில்லாளர்' },
         },
         '~ architect': {
             'ar': { 'male': 'مهندس معماري ~', 'female': 'مهندسة معمارية ~' },
@@ -2983,6 +3211,7 @@ def main():
             'he': { 'male': 'אדריכל ~', 'female': 'אדריכלית ~' },
             'ro': { 'male': 'arhitect ~', 'female': 'arhitectă ~' },
             'sq': { 'male': 'arkitekt ~', 'female': 'arkitekte ~' },
+            'ta': { 'male': '~க் கட்டடக் கலைஞர்', 'female': '~க் கட்டடக் கலைஞர்' },
         },
         '~ art historian': {
             'ar': { 'male': 'مؤرخ فن ~', 'female': 'مؤرخة فن ~' },
@@ -3009,10 +3238,12 @@ def main():
             'he': { 'male': 'אמן ~', 'female': 'אמנית ~' },
             'ro': { 'male': 'artist ~', 'female': 'artistă ~' },
             'sq': { 'male': 'artist ~', 'female': 'artiste ~' },
+            'ta': { 'male': '~க் கலைஞர்', 'female': '~க் கலைஞர்' },
         },
         '~ archbishop': {
             'en': { 'male': '~ archbishop', 'female': '~ archbishop' },
             'es': { 'male': 'arzobispo ~', 'female': 'arzobispo ~' },
+            'ta': { 'male': '~ப் பேராயர்', 'female': '~ப் பேராயர்' },
         },
         '~ archivist': {
             'en': { 'male': '~ archivist', 'female': '~ archivist' },
@@ -3060,6 +3291,7 @@ def main():
             'he': { 'male': 'אסטרונום ~', 'female': 'אסטרונומית ~' },
             'ro': { 'male': 'astronom ~', 'female': 'astronomă ~' },
             'sq': { 'male': 'astronom ~', 'female': 'astronome ~' },
+            'ta': { 'male': '~ வானியலாளர்', 'female': '~ வானியலாளர்' },
         },
         '~ athlete': {
             'ar': { 'male': 'رياضي ~', 'female': 'رياضية ~' },
@@ -3073,6 +3305,7 @@ def main():
             'he': { 'male': 'אתלט ~', 'female': 'אתלטית ~' },
             'ro': { 'male': 'atlet ~', 'female': 'atletă ~' },
             'sq': { 'male': 'atlet ~', 'female': 'atlete ~' },
+            'ta': { 'male': '~த் தடகள விளையாட்டாளர்', 'female': '~த் தடகள விளையாட்டாளர்' },
         },
         '~ athletics competitor': {
             'ar': { 'male': 'رياضي ~', 'female': 'رياضية ~' },
@@ -3090,6 +3323,7 @@ def main():
         '~ basketball coach': {
             'en': { 'male': '~ basketball coach', 'female': '~ basketball coach' },
             'es': { 'male': 'entrenador de baloncesto ~', 'female': 'entrenadora de baloncesto ~' },
+            'ta': { 'male': '~க் கூடைப்பந்து பயிற்சியாளர்', 'female': '~க் கூடைப்பந்து பயிற்சியாளர்' },
         },
         '~ basketball player': {
             'ar': { 'male': 'لاعب كرة سلة ~', 'female': 'لاعبة كرة سلة ~' },
@@ -3103,6 +3337,7 @@ def main():
             'he': { 'male': 'שחקן כדורסל ~', 'female': 'שחקנית כדורסל ~' },
             'ro': { 'male': 'baschetbalist ~', 'female': 'baschetbalistă ~' },
             'sq': { 'male': 'basketbollist ~', 'female': 'basketbolliste ~' },
+            'ta': { 'male': '~க் கூடைப்பந்து விளையாட்டாளர்', 'female': '~க் கூடைப்பந்து விளையாட்டாளர்' },
         },
         '~ biathlete': {
             'en': { 'male': '~ biathlete', 'female': '~ biathlete' },
@@ -3120,14 +3355,17 @@ def main():
             'he': { 'male': 'רוכב אופניים ~', 'female': 'רוכבת אופניים ~' },
             'ro': { 'male': 'ciclist ~', 'female': 'ciclistă ~' },
             'sq': { 'male': 'çiklist ~', 'female': 'çikliste ~' },
+            'ta': { 'male': '~ மிதிவண்டி ஓட்டுநர்', 'female': '~ மிதிவண்டி ஓட்டுநர்' },
         },
         '~ biologist': {
             'en': { 'male': '~ biologist', 'female': '~ biologist' },
             'es': { 'male': 'biólogo ~', 'female': 'bióloga ~' },
+            'ta': { 'male': '~ உயிரியலாளர்', 'female': '~ உயிரியலாளர்' },
         },
         '~ bishop': {
             'en': { 'male': '~ bishop', 'female': '~ bishop' },
             'es': { 'male': 'obispo ~', 'female': 'obispo ~' },
+            'ta': { 'male': '~ ஆயர்', 'female': '~ ஆயர்' },
         },
         '~ botanist': {
             'ar': { 'male': 'عالم نبات ~', 'female': 'عالمة نبات ~' },
@@ -3141,10 +3379,12 @@ def main():
             'he': { 'male': 'בוטנאי ~', 'female': 'בוטנאית ~' },
             'ro': { 'male': 'botanist ~', 'female': 'botanistă ~' },
             'sq': { 'male': 'botanist ~', 'female': 'botaniste ~' },
+            'ta': { 'male': '~த் தாவரவியலர்', 'female': '~த் தாவரவியலர்' },
         },
         '~ boxer': {
             'en': { 'male': '~ boxer', 'female': '~ boxer' },
             'es': { 'male': 'boxeador ~', 'female': 'boxeadora ~' },
+            'ta': { 'male': '~க் குத்துச்சண்டை வீரர்', 'female': '~க் குத்துச்சண்டை வீராங்கனை' },
         },
         '~ businessperson': {
             'ar': { 'male': 'رجل أعمال ~', 'female': 'سيدة أعمال ~' },
@@ -3158,10 +3398,12 @@ def main():
             'he': { 'male': 'איש עסקים ~', 'female': 'אשת עסקים ~' },
             'ro': { 'male': 'om de afaceri ~', 'female': 'femeie de afaceri ~' },
             'sq': { 'male': 'biznesmen ~', 'female': 'biznesmene ~' },
+            'ta': { 'male': '~த் தொழிலதிபர்', 'female': '~த் தொழிலதிபர்' },
         },
         '~ cartographer': {
             'en': { 'male': '~ cartographer', 'female': '~ cartographer' },
             'es': { 'male': 'cartógrafo ~', 'female': 'cartógrafa ~' },
+            'ta': { 'male': '~ நிலப்படவரைவியலாளர்', 'female': '~ நிலப்படவரைவியலாளர்' },
         },
         '~ catholic priest': {
             'ar': { 'male': 'قس كاثوليكي ~', 'female': 'قس كاثوليكي ~' },
@@ -3196,6 +3438,7 @@ def main():
         '~ chef': {
             'en': { 'male': '~ chef', 'female': '~ chef' },
             'es': { 'male': 'chef ~', 'female': 'chef ~' },
+            'ta': { 'male': '~ச் சமையல் கலைஞர்', 'female': '~ச் சமையல் கலைஞர்' },
         },
         '~ chemist': {
             'ar': { 'male': 'كيميائي ~', 'female': 'كيميائية ~' },
@@ -3209,10 +3452,12 @@ def main():
             'he': { 'male': 'כימאי ~', 'female': 'כימאית ~' },
             'ro': { 'male': 'chimist ~', 'female': 'chimistă ~' },
             'sq': { 'male': 'kimist ~', 'female': 'kimiste ~' },
+            'ta': { 'male': '~ வேதியியலாளர்', 'female': '~ வேதியியலாளர்' },
         },
         '~ chess player': {
             'en': { 'male': '~ chess player', 'female': '~ chess player' },
             'es': { 'male': 'ajedrecista ~', 'female': 'ajedrecista ~' },
+            'ta': { 'male': '~ச் சதுரங்க விளையாட்டாளர்', 'female': '~ச் சதுரங்க விளையாட்டாளர்' },
         },
         "~ children's writer": {
             'ar': { 'male': 'كاتب أدب أطفال ~', 'female': 'كاتبة أدب أطفال ~' },
@@ -3226,6 +3471,7 @@ def main():
             'he': { 'male': 'סופר ילדים ~', 'female': 'סופרת ילדים ~' },
             'ro': { 'male': 'scriitor de literatură pentru copii ~', 'female': 'scriitoare de literatură pentru copii ~' },
             'sq': { 'male': 'shkrimtar për fëmijë ~', 'female': 'shkrimtare për fëmijë ~' },
+            'ta': { 'male': '~ச் சிறுவர் இலக்கிய எழுத்தாளர்', 'female': '~ச் சிறுவர் இலக்கிய எழுத்தாளர்' },
         },
         '~ choreographer': {
             'ar': { 'male': 'مصمم رقص ~', 'female': 'مصممة رقص ~' },
@@ -3239,6 +3485,7 @@ def main():
             'he': { 'male': 'כוריאוגרף ~', 'female': 'כוריאוגרפית ~' },
             'ro': { 'male': 'coregraf ~', 'female': 'coregrafă ~' },
             'sq': { 'male': 'koreograf ~', 'female': 'koreografe ~' },
+            'ta': { 'male': '~ நடன இயக்குநர்', 'female': '~ நடன இயக்குநர்' },
         },
         '~ comics artist': {
             'ar': { 'male': 'فنان قصص مصورة ~', 'female': 'فنانة قصص مصورة ~' },
@@ -3252,6 +3499,7 @@ def main():
             'he': { 'male': 'אמן קומיקס ~', 'female': 'אמנית קומיקס ~' },
             'ro': { 'male': 'autor de benzi desenate ~', 'female': 'autoare de benzi desenate ~' },
             'sq': { 'male': 'artist komikësh ~', 'female': 'artiste komikësh ~' },
+            'ta': { 'male': '~ வரைகதை ஓவியர்', 'female': '~ வரைகதை ஓவியர்' },
         },
         '~ composer': {
             'ar': { 'male': 'ملحن ~', 'female': 'ملحنة ~' },
@@ -3265,10 +3513,12 @@ def main():
             'he': { 'male': 'מלחין ~', 'female': 'מלחינה ~' },
             'ro': { 'male': 'compozitor ~', 'female': 'compozitoare ~' },
             'sq': { 'male': 'kompozitor ~', 'female': 'kompozitore ~' },
+            'ta': { 'male': '~ இசையமைப்பாளர்', 'female': '~ இசையமைப்பாளர்' },
         },
         '~ cross-country skier': {
             'en': { 'male': '~ cross-country skier', 'female': '~ cross-country skier' },
             'es': { 'male': 'esquiador de fondo ~', 'female': 'esquiadora de fondo ~' },
+            'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         '~ cyclist': {
             'ar': { 'male': 'دراج ~', 'female': 'دراجة ~' },
@@ -3282,10 +3532,12 @@ def main():
             'he': { 'male': 'רוכב אופניים ~', 'female': 'רוכבת אופניים ~' },
             'ro': { 'male': 'ciclist ~', 'female': 'ciclistă ~' },
             'sq': { 'male': 'çiklist ~', 'female': 'çikliste ~' },
+            'ta': { 'male': '~ மிதிவண்டி ஓட்டுநர்', 'female': '~ மிதிவண்டி ஓட்டுநர்' },
         },
         '~ dermatologist': {
             'en': { 'male': '~ dermatologist', 'female': '~ dermatologist' },
             'es': { 'male': 'dermatólogo ~', 'female': 'dermatóloga ~' },
+            #'ta': { 'male': 'UNKNOWN', 'female': 'UNKNOWN' },
         },
         '~ diplomat': {
             'ar': { 'male': 'دبلوماسي ~', 'female': 'دبلوماسية ~' },
@@ -3312,10 +3564,12 @@ def main():
             'he': { 'male': 'כלכלן ~', 'female': 'כלכלנית ~' },
             'ro': { 'male': 'economist ~', 'female': 'economistă ~' },
             'sq': { 'male': 'ekonomist ~', 'female': 'ekonomiste ~' },
+            'ta': { 'male': '~ப் பொருளியலாளர்', 'female': '~ப் பொருளியலாளர்' },
         },
         '~ egyptologist': {
             'en': { 'male': '~ egyptologist', 'female': '~ egyptologist' },
             'es': { 'male': 'egiptólogo ~', 'female': 'egiptóloga ~' },
+            'ta': { 'male': '~ எகிப்தியவியலாளர்', 'female': '~ எகிப்தியவியலாளர்' },
         },
         '~ engineer': {
             'ar': { 'male': 'مهندس ~', 'female': 'مهندسة ~' },
@@ -3329,6 +3583,7 @@ def main():
             'he': { 'male': 'מהנדס ~', 'female': 'מהנדסת ~' },
             'ro': { 'male': 'inginer ~', 'female': 'ingineră ~' },
             'sq': { 'male': 'inxhinier ~', 'female': 'inxhiniere ~' },
+            'ta': { 'male': '~ ப் பொறியாளர்', 'female': '~ ப் பொறியாளர்' },
         },
         '~ engraver': {
             'en': { 'male': '~ engraver', 'female': '~ engraver' },
@@ -3346,6 +3601,7 @@ def main():
             'he': { 'male': 'אנטומולוג ~', 'female': 'אנטומולוגית ~' },
             'ro': { 'male': 'entomolog ~', 'female': 'entomologă ~' },
             'sq': { 'male': 'entomolog ~', 'female': 'entomologe ~' },
+            'ta': { 'male': '~ப் பூச்சியியலாளர்', 'female': '~ப் பூச்சியியலாளர்' },
         },
         '~ Esperantist': {
             'en': { 'male': '~ Esperantist', 'female': '~ Esperantist' },
@@ -3354,10 +3610,12 @@ def main():
         '~ essayist': {
             'en': { 'male': '~ essayist', 'female': '~ essayist' },
             'es': { 'male': 'ensayista ~', 'female': 'ensayista ~' },
+            'ta': { 'male': '~க் கட்டுரையாளர்', 'female': '~க் கட்டுரையாளர்' },
         },
         '~ ethnologist': {
             'en': { 'male': '~ ethnologist', 'female': '~ ethnologist' },
             'es': { 'male': 'etnólogo ~', 'female': 'etnóloga ~' },
+            'ta': { 'male': '~ இனவிளக்கவியலாளர்', 'female': '~ இனவிளக்கவியலாளர்' },
         },
         '~ explorer': {
             'ar': { 'male': 'مستكشف ~', 'female': 'مستكشفة ~' },
@@ -3371,6 +3629,7 @@ def main():
             'he': { 'male': 'חוקר ארצות ~', 'female': 'חוקרת ארצות ~' },
             'ro': { 'male': 'explorator ~', 'female': 'exploratoare ~' },
             'sq': { 'male': 'eksplorues ~', 'female': 'eksploruese ~' },
+            'ta': { 'male': '~த் தேடலாய்வாளர்', 'female': '~த் தேடலாய்வாளர்' },
         },
         '~ fencer': {
             'ar': { 'male': 'مسايف ~', 'female': 'مسايفة ~' },
@@ -3401,10 +3660,12 @@ def main():
             'he': { 'male': 'שחקן ~', 'female': 'שחקנית ~' },
             'ro': { 'male': 'actor ~', 'female': 'actriță ~' },
             'sq': { 'male': 'aktor ~', 'female': 'aktore ~' },
+            'ta': { 'male': '~ நடிகர்', 'female': '~ நடிகை' },
         },
         '~ film critic': {
             'en': { 'male': '~ film critic', 'female': '~ film critic' },
             'es': { 'male': 'crítico de cine ~', 'female': 'crítica de cine ~' },
+            'ta': { 'male': '~த் திரைப்பட விமர்சகர்', 'female': '~த் திரைப்பட விமர்சகர்' },
         },
         '~ film director': {
             'ar': { 'male': 'مخرج أفلام ~', 'female': 'مخرجة أفلام ~' },
@@ -3418,6 +3679,7 @@ def main():
             'he': { 'male': 'במאי קולנוע ~', 'female': 'במאית קולנוע ~' },
             'ro': { 'male': 'regizor de film ~', 'female': 'regizoare de film ~' },
             'sq': { 'male': 'regjisor ~', 'female': 'regjisore ~' },
+            'ta': { 'male': '~த் திரைப்பட இயக்குநர்', 'female': '~த் திரைப்பட இயக்குநர்' },
         },
         '~ film producer': {
             'ar': { 'male': 'منتج أفلام ~', 'female': 'منتجة أفلام ~' },
@@ -3431,6 +3693,7 @@ def main():
             'he': { 'male': 'מפיק קולנוע ~', 'female': 'מפיקת קולנוע ~' },
             'ro': { 'male': 'producător de film ~', 'female': 'producătoare de film ~' },
             'sq': { 'male': 'prodhues filmash ~', 'female': 'prodhuese filmash ~' },
+            'ta': { 'male': '~த் திரைப்பட தயாரிப்பாளர்', 'female': '~த் திரைப்பட தயாரிப்பாளர்' },
         },
         '~ flying ace': {
             'en': { 'male': '~ flying ace', 'female': '~ flying ace' },
@@ -3448,26 +3711,32 @@ def main():
             'he': { 'male': 'כדורגלן ~', 'female': 'כדורגלנית ~' },
             'ro': { 'male': 'fotbalist ~', 'female': 'fotbalistă ~' },
             'sq': { 'male': 'futbollist ~', 'female': 'futbolliste ~' },
+            'ta': { 'male': '~க் காற்பந்தாட்ட வீரர்', 'female': '~க் காற்பந்தாட்ட வீராங்கனை' },
         },
         '~ geneticist': {
             'en': { 'male': '~ geneticist', 'female': '~ geneticist' },
             'es': { 'male': 'genetista ~', 'female': 'genetista ~' },
+            'ta': { 'male': '~ மரபியலாளர்', 'female': '~ மரபியலாளர்' },
         },
         '~ geologist': {
             'en': { 'male': '~ geologist', 'female': '~ geologist' },
             'es': { 'male': 'geólogo ~', 'female': 'geóloga ~' },
+            'ta': { 'male': '~ நிலவியலாளர்', 'female': '~ நிலவியலாளர்' },
         },
         '~ geographer': {
             'en': { 'male': '~ geographer', 'female': '~ geographer' },
             'es': { 'male': 'geógrafo ~', 'female': 'geógrafa ~' },
+            'ta': { 'male': '~ப் புவியியலாளர்', 'female': '~ப் புவியியலாளர்' },
         },
         '~ guitarist': {
             'en': { 'male': '~ guitarist', 'female': '~ guitarist' },
             'es': { 'male': 'guitarrista ~', 'female': 'guitarrista ~' },
+            'ta': { 'male': '~ கிதார் கலைஞர்கள்', 'female': '~ கிதார் கலைஞர்கள்' },
         },
         '~ gymnast': {
             'en': { 'male': '~ gymnast', 'female': '~ gymnast' },
             'es': { 'male': 'gimnasta ~', 'female': 'gimnasta ~' },
+            'ta': { 'male': '~ சீருடற்பயிற்சியாளர்', 'female': '~ சீருடற்பயிற்சியாளர்' },
         },
         '~ gynaecologist': {
             'en': { 'male': '~ gynaecologist', 'female': '~ gynaecologist' },
@@ -3489,6 +3758,7 @@ def main():
             'he': { 'male': 'היסטוריון ~', 'female': 'היסטוריונית ~' },
             'ro': { 'male': 'istoric ~', 'female': 'istorică ~' },
             'sq': { 'male': 'historian ~', 'female': 'historiane ~' },
+            'ta': { 'male': '~ வரலாற்றாசிரியர்', 'female': '~ வரலாற்றாசிரியர்' },
         },
         '~ ice hockey player': {
             'en': { 'male': '~ ice hockey player', 'female': '~ ice hockey player' },
@@ -3506,6 +3776,7 @@ def main():
             'he': { 'male': 'מאייר ~', 'female': 'מאיירת ~' },
             'ro': { 'male': 'ilustrator ~', 'female': 'ilustratoare ~' },
             'sq': { 'male': 'ilustrator ~', 'female': 'ilustratore ~' },
+            #'ta': { 'male': '~ ஓவியர்', 'female': '~ ஓவியர்' },
         },
         '~ journalist': {
             'ar': { 'male': 'صحفي ~', 'female': 'صحفية ~' },
@@ -3519,6 +3790,7 @@ def main():
             'he': { 'male': 'עיתונאי ~', 'female': 'עיתונאית ~' },
             'ro': { 'male': 'jurnalist ~', 'female': 'jurnalistă ~' },
             'sq': { 'male': 'gazetar ~', 'female': 'gazetare ~' },
+            'ta': { 'male': '~ச் செய்தியாளர்', 'female': '~ச் செய்தியாளர்' },
         },
         '~ judoka': {
             'en': { 'male': '~ judoka', 'female': '~ judoka' },
@@ -3536,6 +3808,7 @@ def main():
             'he': { 'male': 'משפטן ~', 'female': 'משפטנית ~' },
             'ro': { 'male': 'jurist ~', 'female': 'juristă ~' },
             'sq': { 'male': 'jurist ~', 'female': 'juriste ~' },
+            'ta': { 'male': '~ச் சட்ட அறிஞர்', 'female': '~ச் சட்ட அறிஞர்' },
         },
         '~ lawyer': {
             'ar': { 'male': 'محامي ~', 'female': 'محامية ~' },
@@ -3549,26 +3822,32 @@ def main():
             'he': { 'male': 'עורך דין ~', 'female': 'עורכת דין ~' },
             'ro': { 'male': 'avocat ~', 'female': 'avocată ~' },
             'sq': { 'male': 'avokat ~', 'female': 'avokate ~' },
+            'ta': { 'male': '~ வழக்கறிஞர்', 'female': '~ வழக்கறிஞர்' },
         },
         '~ legal historian': {
             'en': { 'male': '~ legal historian', 'female': '~ legal historian' },
             'es': { 'male': 'historiador del derecho ~', 'female': 'historiadora del derecho ~' },
+            'ta': { 'male': '~ச் சட்ட வரலாற்றாளர்', 'female': '~ச் சட்ட வரலாற்றாளர்' },
         },
         '~ librarian': {
             'en': { 'male': '~ librarian', 'female': '~ librarian' },
             'es': { 'male': 'bibliotecario ~', 'female': 'bibliotecaria ~' },
+            'ta': { 'male': '~ நூலகர்', 'female': '~ நூலகர்' },
         },
         '~ linguist': {
             'en': { 'male': '~ linguist', 'female': '~ linguist' },
             'es': { 'male': 'lingüista ~', 'female': 'lingüista ~' },
+            'ta': { 'male': '~ மொழியியலாளர்', 'female': '~ மொழியியலாளர்' },
         },
         '~ literary critic': {
             'en': { 'male': '~ literary critic', 'female': '~ literary critic' },
             'es': { 'male': 'crítico literario ~', 'female': 'crítica literaria ~' },
+            'ta': { 'male': '~ இலக்கிய விமர்சகர்', 'female': '~ இலக்கிய விமர்சகர்' },
         },
         '~ lithographer': {
             'en': { 'male': '~ lithographer', 'female': '~ lithographer' },
             'es': { 'male': 'litógrafo ~', 'female': 'litógrafa ~' },
+            'ta': { 'male': '~க் கல்லெழுத்தாளர்', 'female': '~க் கல்லெழுத்தாளர்' },
         },
         '~ mathematician': {
             'ar': { 'male': 'رياضياتي ~', 'female': 'رياضياتية ~' },
@@ -3582,6 +3861,7 @@ def main():
             'he': { 'male': 'מתמטיקאי ~', 'female': 'מתמטיקאית ~' },
             'ro': { 'male': 'matematician ~', 'female': 'matematiciană ~' },
             'sq': { 'male': 'matematikan ~', 'female': 'matematikane ~' },
+            'ta': { 'male': '~க் கணிதவியலாளர்', 'female': '~க் கணிதவியலாளர்' },
         },
         '~ medievalist': {
             'en': { 'male': '~ medievalist', 'female': '~ medievalist' },
@@ -3594,6 +3874,7 @@ def main():
         '~ missionary': {
             'en': { 'male': '~ missionary', 'female': '~ missionary' },
             'es': { 'male': 'misionero ~', 'female': 'misionera ~' },
+            'ta': { 'male': '~ மறைப்பணியாளர்', 'female': '~ மறைப்பணியாளர்' },
         },
         '~ motorcycle racer': {
             'en': { 'male': '~ motorcycle racer', 'female': '~ motorcycle racer' },
@@ -3611,6 +3892,7 @@ def main():
             'he': { 'male': 'מוזיקאי ~', 'female': 'מוזיקאית ~' },
             'ro': { 'male': 'muzician ~', 'female': 'muziciană ~' },
             'sq': { 'male': 'muzikant ~', 'female': 'muzikante ~' },
+            'ta': { 'male': '~ இசைக் கலைஞர்', 'female': '~ இசைக் கலைஞர்' },
         },
         '~ musicologist': {
             'en': { 'male': '~ musicologist', 'female': '~ musicologist' },
@@ -3623,10 +3905,12 @@ def main():
         '~ naturalist': {
             'en': { 'male': '~ naturalist', 'female': '~ naturalist' },
             'es': { 'male': 'naturalista ~', 'female': 'naturalista ~' },
+            'ta': { 'male': '~ இயற்கையியலாளர்', 'female': '~ இயற்கையியலாளர்' },
         },
         '~ neurologist': {
             'en': { 'male': '~ neurologist', 'female': '~ neurologist' },
             'es': { 'male': 'neurólogo ~', 'female': 'neuróloga ~' },
+            'ta': { 'male': '~ நரம்பியலாளர்', 'female': '~ நரம்பியலாளர்' },
         },
         '~ novelist': {
             'ar': { 'male': 'روائي ~', 'female': 'روائية ~' },
@@ -3640,30 +3924,37 @@ def main():
             'he': { 'male': 'מחבר רומנים ~', 'female': 'מחברת רומנים ~' },
             'ro': { 'male': 'romancier ~', 'female': 'romancieră ~' },
             'sq': { 'male': 'novelist ~', 'female': 'noveliste ~' },
+            'ta': { 'male': '~ப் புதின எழுத்தாளர்', 'female': '~ப் புதின எழுத்தாளர்' },
         },
         '~ oncologist': {
             'en': { 'male': '~ oncologist', 'female': '~ oncologist' },
             'es': { 'male': 'oncólogo ~', 'female': 'oncóloga ~' },
+            'ta': { 'male': '~ப் புற்றுநோயியலாளர்', 'female': '~ப் புற்றுநோயியலாளர்' },
         },
         '~ opera singer': {
             'en': { 'male': '~ opera singer', 'female': '~ opera singer' },
             'es': { 'male': 'cantante de ópera ~', 'female': 'cantante de ópera ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ ophthalmologist': {
             'en': { 'male': '~ ophthalmologist', 'female': '~ ophthalmologist' },
             'es': { 'male': 'oftalmólogo ~', 'female': 'oftalmóloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ organist': {
             'en': { 'male': '~ organist', 'female': '~ organist' },
             'es': { 'male': 'organista ~', 'female': 'organista ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ orientalist': {
             'en': { 'male': '~ orientalist', 'female': '~ orientalist' },
             'es': { 'male': 'orientalista ~', 'female': 'orientalista ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ ornithologist': {
             'en': { 'male': '~ ornithologist', 'female': '~ ornithologist' },
             'es': { 'male': 'ornitólogo ~', 'female': 'ornitóloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ painter': {
             'ar': { 'male': 'رسام ~', 'female': 'رسامة ~' },
@@ -3677,22 +3968,27 @@ def main():
             'he': { 'male': 'צייר ~', 'female': 'ציירת ~' },
             'ro': { 'male': 'pictor ~', 'female': 'pictoriță ~' },
             'sq': { 'male': 'piktor ~', 'female': 'piktore ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ pathologist': {
             'en': { 'male': '~ pathologist', 'female': '~ pathologist' },
             'es': { 'male': 'patólogo ~', 'female': 'patóloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ pharmacist': {
             'en': { 'male': '~ pharmacist', 'female': '~ pharmacist' },
             'es': { 'male': 'farmacéutico ~', 'female': 'farmacéutica ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ pharmacologist': {
             'en': { 'male': '~ pharmacologist', 'female': '~ pharmacologist' },
             'es': { 'male': 'farmacólogo ~', 'female': 'farmacóloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ philologist': {
             'en': { 'male': '~ philologist', 'female': '~ philologist' },
             'es': { 'male': 'filólogo ~', 'female': 'filóloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ philosopher': {
             'ar': { 'male': 'فيلسوف ~', 'female': 'فيلسوفة ~' },
@@ -3706,6 +4002,7 @@ def main():
             'he': { 'male': 'פילוסוף ~', 'female': 'פילוסופית ~' },
             'ro': { 'male': 'filosof ~', 'female': 'filosoafă ~' },
             'sq': { 'male': 'filozof ~', 'female': 'filozofe ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ photographer': {
             'ar': { 'male': 'مصور ~', 'female': 'مصورة ~' },
@@ -3719,6 +4016,7 @@ def main():
             'he': { 'male': 'צלם ~', 'female': 'צלמת ~' },
             'ro': { 'male': 'fotograf ~', 'female': 'fotografă ~' },
             'sq': { 'male': 'fotograf ~', 'female': 'fotografe ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ physician': {
             'ar': { 'male': 'طبيب ~', 'female': 'طبيبة ~' },
@@ -3732,6 +4030,7 @@ def main():
             'he': { 'male': 'רופא ~', 'female': 'רופאה ~' },
             'ro': { 'male': 'medic ~', 'female': 'doctoriță ~' },
             'sq': { 'male': 'mjek ~', 'female': 'mjeke ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ physicist': {
             'ar': { 'male': 'فيزيائي ~', 'female': 'فيزيائية ~' },
@@ -3745,6 +4044,7 @@ def main():
             'he': { 'male': 'פיזיקאי ~', 'female': 'פיזיקאית ~' },
             'ro': { 'male': 'fizician ~', 'female': 'fiziciană ~' },
             'sq': { 'male': 'fizikan ~', 'female': 'fizikane ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ physiologist': {
             'en': { 'male': '~ physiologist', 'female': '~ physiologist' },
@@ -3762,6 +4062,7 @@ def main():
             'he': { 'male': 'פסנתרן ~', 'female': 'פסנתרנית ~' },
             'ro': { 'male': 'pianist ~', 'female': 'pianistă ~' },
             'sq': { 'male': 'pianist ~', 'female': 'pianiste ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ playwright': {
             'ar': { 'male': 'كاتب مسرحي ~', 'female': 'كاتبة مسرحية ~' },
@@ -3775,6 +4076,7 @@ def main():
             'he': { 'male': 'מחזאי ~', 'female': 'מחזאית ~' },
             'ro': { 'male': 'dramaturg ~', 'female': 'dramaturgă ~' },
             'sq': { 'male': 'dramaturg ~', 'female': 'dramaturge ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ poet': {
             'ar': { 'male': 'شاعر ~', 'female': 'شاعرة ~' },
@@ -3788,10 +4090,12 @@ def main():
             'he': { 'male': 'משורר ~', 'female': 'משוררת ~' },
             'ro': { 'male': 'poet ~', 'female': 'poetă ~' },
             'sq': { 'male': 'poet ~', 'female': 'poete ~' },
+            'ta': { 'male': '~க் கவிஞர்', 'female': '~க் கவிஞர்' },
         },
         '~ political scientist': {
             'en': { 'male': '~ political scientist', 'female': '~ political scientist' },
             'es': { 'male': 'politólogo ~', 'female': 'politóloga ~' },
+            'ta': { 'male': '~ அரசியலாய்வாளர்', 'female': '~ அரசியலாய்வாளர்' },
         },
         '~ politician': {
             'ar': { 'male': 'سياسي ~', 'female': 'سياسية ~' },
@@ -3805,18 +4109,22 @@ def main():
             'he': { 'male': 'פוליטיקאי ~', 'female': 'פוליטיקאית ~' },
             'ro': { 'male': 'politician ~', 'female': 'politiciană ~' },
             'sq': { 'male': 'politikan ~', 'female': 'politikane ~' },
+            'ta': { 'male': '~ அரசியல்வாதி', 'female': '~ அரசியல்வாதி' },
         },
         '~ psychiatrist': {
             'en': { 'male': '~ psychiatrist', 'female': '~ psychiatrist' },
             'es': { 'male': 'psiquiatra ~', 'female': 'psiquiatra ~' },
+            'ta': { 'male': '~ மனமருத்துவர்', 'female': '~ மனமருத்துவர்' },
         },
         '~ psychoanalyst': {
             'en': { 'male': '~ psychoanalyst', 'female': '~ psychoanalyst' },
             'es': { 'male': 'psicoanalista ~', 'female': 'psicoanalista ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ psychologist': {
             'en': { 'male': '~ psychologist', 'female': '~ psychologist' },
             'es': { 'male': 'psicólogo ~', 'female': 'psicóloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ publisher': {
             'ar': { 'male': 'ناشر ~', 'female': 'ناشرة ~' },
@@ -3830,6 +4138,7 @@ def main():
             'he': { 'male': 'מוציא לאור ~', 'female': 'מוציאה לאור ~' },
             'ro': { 'male': 'editor ~', 'female': 'editoare ~' },
             'sq': { 'male': 'botues ~', 'female': 'botuese ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ rabbi': {
             'ar': { 'male': 'حاخام ~', 'female': 'حاخامة ~' },
@@ -3843,26 +4152,32 @@ def main():
             'he': { 'male': 'רב ~', 'female': 'רבנית ~' },
             'ro': { 'male': 'rabin ~', 'female': 'rabină ~' },
             'sq': { 'male': 'rabin ~', 'female': 'rabine ~' },
+            'ta': { 'male': '~ யூத மதகுரு', 'female': '~ யூத மதகுரு' },
         },
         '~ racing driver': {
             'en': { 'male': '~ racing driver', 'female': '~ racing driver' },
             'es': { 'male': 'piloto de automovilismo ~', 'female': 'piloto de automovilismo ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ radiologist': {
             'en': { 'male': '~ radiologist', 'female': '~ radiologist' },
             'es': { 'male': 'radiólogo ~', 'female': 'radióloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ rally driver': {
             'en': { 'male': '~ rally driver', 'female': '~ rally driver' },
             'es': { 'male': 'piloto de rally ~', 'female': 'piloto de rally ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ rapper': {
             'en': { 'male': '~ rapper', 'female': '~ rapper' },
             'es': { 'male': 'rapero ~', 'female': 'rapera ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ rower': {
             'en': { 'male': '~ rower', 'female': '~ rower' },
             'es': { 'male': 'remero ~', 'female': 'remera ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ rugby union player': {
             'ar': { 'male': 'لاعب رغبي ~', 'female': 'لاعبة رغبي ~' },
@@ -3876,14 +4191,17 @@ def main():
             'he': { 'male': 'שחקן רוגבי יוניון ~', 'female': 'שחקנית רוגבי יוניון ~' },
             'ro': { 'male': 'rugbist ~', 'female': 'rugbistă ~' },
             'sq': { 'male': 'lojtar rugby ~', 'female': 'lojtare rugby ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ saxophonist': {
             'en': { 'male': '~ saxophonist', 'female': '~ saxophonist' },
             'es': { 'male': 'saxofonista ~', 'female': 'saxofonista ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ scientist': {
             'en': { 'male': '~ scientist', 'female': '~ scientist' },
             'es': { 'male': 'científico ~', 'female': 'científica ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ screenwriter': {
             'ar': { 'male': 'كاتب سيناريو ~', 'female': 'كاتبة سيناريو ~' },
@@ -3897,6 +4215,7 @@ def main():
             'he': { 'male': 'תסריטאי ~', 'female': 'תסריטאית ~' },
             'ro': { 'male': 'scenarist ~', 'female': 'scenaristă ~' },
             'sq': { 'male': 'skenarist ~', 'female': 'skenariste ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ sculptor': {
             'ar': { 'male': 'نحات ~', 'female': 'نحاتة ~' },
@@ -3910,6 +4229,7 @@ def main():
             'he': { 'male': 'פסל ~', 'female': 'פסלת ~' },
             'ro': { 'male': 'sculptor ~', 'female': 'sculptoriță ~' },
             'sq': { 'male': 'skulptor ~', 'female': 'skupltore ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ singer': {
             'ar': { 'male': 'مغني ~', 'female': 'مغنية ~' },
@@ -3923,18 +4243,22 @@ def main():
             'he': { 'male': 'זמר ~', 'female': 'זמרת ~' },
             'ro': { 'male': 'cântăreț ~', 'female': 'cântăreață ~' },
             'sq': { 'male': 'këngëtar ~', 'female': 'këngëtare ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ singer-songwriter': {
             'en': { 'male': '~ singer-songwriter', 'female': '~ singer-songwriter' },
             'es': { 'male': 'cantautor ~', 'female': 'cantautora ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ ski jumper': {
             'en': { 'male': '~ ski jumper', 'female': '~ ski jumper' },
             'es': { 'male': 'saltador de esquí ~', 'female': 'saltadora de esquí ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ snowboarder': {
             'en': { 'male': '~ snowboarder', 'female': '~ snowboarder' },
             'es': { 'male': 'snowboarder ~', 'female': 'snowboarder ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ sociologist': {
             'ar': { 'male': 'عالم اجتماع ~', 'female': 'عالمة اجتماع ~' },
@@ -3948,6 +4272,7 @@ def main():
             'he': { 'male': 'סוציולוג ~', 'female': 'סוציולוגית ~' },
             'ro': { 'male': 'sociolog ~', 'female': 'sociologă ~' },
             'sq': { 'male': 'sociolog ~', 'female': 'sociologe ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ soldier': {
             'ar': { 'male': 'جندي ~', 'female': 'جندية ~' },
@@ -3961,10 +4286,12 @@ def main():
             'he': { 'male': 'חייל ~', 'female': 'חיילת ~' },
             'ro': { 'male': 'soldat ~', 'female': 'femeie soldat ~' },
             'sq': { 'male': 'ushtar ~', 'female': 'ushtare ~' },
+            'ta': { 'male': '~ப் படைவீரர்', 'female': '~ப் படைவீராங்கனை' },
         },
         '~ speleologist': {
             'en': { 'male': '~ speleologist', 'female': '~ speleologist' },
             'es': { 'male': 'espeleólogo ~', 'female': 'espeleóloga ~' },
+            'ta': { 'male': '~ குகையாய்வியலாளர்', 'female': '~ குகையாய்வியலாளர்' },
         },
         '~ sport cyclist': { #it should be the same as cyclist
             'ar': { 'male': 'دراج ~', 'female': 'دراجة ~' },
@@ -3978,14 +4305,17 @@ def main():
             'he': { 'male': 'רוכב אופניים ~', 'female': 'רוכבת אופניים ~' },
             'ro': { 'male': 'ciclist ~', 'female': 'ciclistă ~' },
             'sq': { 'male': 'çiklist ~', 'female': 'çikliste ~' },
+            'ta': { 'male': '~ மிதிவண்டி ஓட்டுநர்', 'female': '~ மிதிவண்டி ஓட்டுநர்' },
         },
         '~ spy': {
             'en': { 'male': '~ spy', 'female': '~ spy' },
             'es': { 'male': 'espía ~', 'female': 'espía ~' },
+            'ta': { 'male': '~ உளவாளி', 'female': '~ உளவாளி' },
         },
         '~ surgeon': {
             'en': { 'male': '~ surgeon', 'female': '~ surgeon' },
             'es': { 'male': 'cirujano ~', 'female': 'cirujana ~' },
+            'ta': { 'male': '~ அறுவை மருத்துவர்', 'female': '~ அறுவை மருத்துவர்' },
         },
         '~ swimmer': {
             'ar': { 'male': 'سباح ~', 'female': 'سباحة ~' },
@@ -3999,6 +4329,7 @@ def main():
             'he': { 'male': 'שחיין ~', 'female': 'שחיינית ~' },
             'ro': { 'male': 'înotător ~', 'female': 'înotătoare ~' },
             'sq': { 'male': 'notues ~', 'female': 'notuese ~' },
+            'ta': { 'male': '~ நீச்சல்காரர்', 'female': '~ நீச்சல்காரர்' },
         },
         '~ tennis player': {
             'ar': { 'male': 'لاعب كرة مضرب ~', 'female': 'لاعبة كرة مضرب ~' },
@@ -4012,14 +4343,17 @@ def main():
             'he': { 'male': 'טניסאי ~', 'female': 'טניסאית ~' },
             'ro': { 'male': 'jucător de tenis ~', 'female': 'jucătoare de tenis ~' },
             'sq': { 'male': 'lojtar tenisi ~', 'female': 'lojtare tenisi ~' },
+            'ta': { 'male': '~ டென்னிசு வீரர்', 'female': '~ டென்னிசு வீராங்கனை' },
         },
         '~ theatre director': {
             'en': { 'male': '~ theatre director', 'female': '~ theatre director' },
             'es': { 'male': 'director de teatro ~', 'female': 'directora de teatro ~' },
+            'ta': { 'male': '~ நாடக இயக்குநர்', 'female': '~ நாடக இயக்குநர்' },
         },
         '~ theologian': {
             'en': { 'male': '~ theologian', 'female': '~ theologian' },
             'es': { 'male': 'teólogo ~', 'female': 'teóloga ~' },
+            'ta': { 'male': '~ இறையியலாளர்', 'female': '~ இறையியலாளர்' },
         },
         '~ trade unionist': {
             'en': { 'male': '~ trade unionist', 'female': '~ trade unionist' },
@@ -4041,6 +4375,7 @@ def main():
             'he': { 'male': 'מרצה באוניברסיטה ~', 'female': 'מרצה באוניברסיטה ~' },
             'ro': { 'male': 'profesor universitar ~', 'female': 'profesoară universitară ~' },
             'sq': { 'male': 'profesor universitar ~', 'female': 'profesore universitare ~' },
+            'ta': { 'male': '~ப் பல்கலைக்கழக ஆசிரியர்', 'female': '~ப் பல்கலைக்கழக ஆசிரியை' },
         },
         '~ veterinarian': {
             'en': { 'male': '~ veterinarian', 'female': '~ veterinarian' },
@@ -4049,10 +4384,12 @@ def main():
         '~ violinist': {
             'en': { 'male': '~ violinist', 'female': '~ violinist' },
             'es': { 'male': 'violinista ~', 'female': 'violinista ~' },
+            'ta': { 'male': '~ வயலின் கலைஞர்', 'female': '~ வயலின் கலைஞர்' },
         },
         '~ virologist': {
             'en': { 'male': '~ virologist', 'female': '~ virologist' },
             'es': { 'male': 'virólogo ~', 'female': 'viróloga ~' },
+            'ta': { 'male': '~', 'female': '~' },
         },
         '~ volleyball player': {
             'en': { 'male': '~ volleyball player', 'female': '~ volleyball player' },
@@ -4074,10 +4411,12 @@ def main():
             'he': { 'male': 'סופר ~', 'female': 'סופרת ~' },
             'ro': { 'male': 'scriitor ~', 'female': 'scriitoare ~' },
             'sq': { 'male': 'shkrimtar ~', 'female': 'shkrimtare ~' },
+            'ta': { 'male': '~ எழுத்தாளர்', 'female': '~ எழுத்தாளர்' },
         },
         '~ zoologist': {
             'en': { 'male': '~ zoologist', 'female': '~ zoologist' },
             'es': { 'male': 'zoólogo ~', 'female': 'zoóloga ~' },
+            'ta': { 'male': '~ விலங்கியலாளர்', 'female': '~ விலங்கியலாளர்' },
         },
     }
     """
